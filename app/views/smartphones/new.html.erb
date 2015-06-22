@@ -1,0 +1,72 @@
+<h1>NEW SMARTPHONE</h1>
+
+<%= form_for :smartphone, url: smartphones_path do |f| %>
+  <p>
+    <%= f.label :Type %>
+    <%= f.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= f.label :manufacturer %>
+    <%= f.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= f.label :equipmentModel %>
+    <%= f.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= f.label :carrier %>
+    <%= f.text_field :carrier %>
+  </p>
+
+  <p>
+    <%= f.label :phoneNumber %>
+    <%= f.text_field :phoneNumber %>
+  </p>
+
+  <p>
+    <%= f.label :serialNumber %>
+    <%= f.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= f.label :meid %>
+    <%= f.text_field :meid %>
+  </p>
+
+  <p>
+    <%= f.label :macAddress %>
+    <%= f.text_field :macAddress %>
+  </p>
+
+  <p>
+    <%= f.label :department %>
+    <%= f.text_field :department %>
+  </p>
+
+  <p>
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </p>
+
+  <p>
+    <%= f.label :assigneeName %>
+    <%= f.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= f.label :status %>
+    <%= f.text_field :status %>
+  </p>
+
+  <p>
+    <%= f.label :Notes %>
+    <%= f.text_area :Notes %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

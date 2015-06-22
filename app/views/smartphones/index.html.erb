@@ -1,0 +1,17 @@
+<h1>Listing Equipment</h1>
+ 
+<table>
+  <tr>
+    <th>Type</th>
+    <th>Manufacturer</th>
+    <th>Model</th>
+  </tr>
+ 
+  <% @smartPhone.each do |smartphone| %>
+    <tr>
+      <td><%= smartphone.equipmentType %></td>
+      <td><%= smartphone.manufacturer %></td>
+      <td><%= smartphone.equipmentModel %></td>
+    </tr>
+  <% end %>
+</table>

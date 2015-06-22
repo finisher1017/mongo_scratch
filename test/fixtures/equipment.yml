@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  equipmentType: MyString
+  manufacturer: MyString
+  model: MyString
+  jslgTag: MyString
+  manufacturerTag: MyString
+  serialNumber: MyString
+  osType: MyString
+  hostName: MyString
+  ram: MyString
+  hdd: MyString
+  department: MyString
+  location: MyString
+  assigneeName: MyString
+  status: MyString
+  notes: MyText
+  macAddress: MyString
+  carrier: MyString
+  phoneNumber: MyString
+  meid: MyString
+  mrcTag: MyString
+  ipAddress: MyString
+  blackId: MyString
+  magentaId: MyString
+  cyanId: MyString
+  yellowId: MyString
+  quantity: MyString
+  wasteId: MyString
+  drumId: MyString
+
+two:
+  equipmentType: MyString
+  manufacturer: MyString
+  model: MyString
+  jslgTag: MyString
+  manufacturerTag: MyString
+  serialNumber: MyString
+  osType: MyString
+  hostName: MyString
+  ram: MyString
+  hdd: MyString
+  department: MyString
+  location: MyString
+  assigneeName: MyString
+  status: MyString
+  notes: MyText
+  macAddress: MyString
+  carrier: MyString
+  phoneNumber: MyString
+  meid: MyString
+  mrcTag: MyString
+  ipAddress: MyString
+  blackId: MyString
+  magentaId: MyString
+  cyanId: MyString
+  yellowId: MyString
+  quantity: MyString
+  wasteId: MyString
+  drumId: MyString

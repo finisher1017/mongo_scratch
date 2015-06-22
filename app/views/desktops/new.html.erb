@@ -1,0 +1,82 @@
+<h1>NEW DESKTOP</h1>
+
+<%= form_for :desktop, url: desktops_path do |f| %>
+  <p>
+    <%= f.label :Type %>
+    <%= f.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= f.label :manufacturer %>
+    <%= f.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= f.label :equipmentModel %>
+    <%= f.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= f.label :jslgTag %>
+    <%= f.text_field :jslgTag %>
+  </p>
+
+  <p>
+    <%= f.label :manufacturerTag %>
+    <%= f.text_field :manufacturerTag %>
+  </p>
+
+  <p>
+    <%= f.label :serialNumber %>
+    <%= f.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= f.label :osType %>
+    <%= f.text_field :osType %>
+  </p>
+
+  <p>
+    <%= f.label :hostName %>
+    <%= f.text_field :hostName %>
+  </p>
+
+  <p>
+    <%= f.label :ram %>
+    <%= f.text_field :ram %>
+  </p>
+
+  <p>
+    <%= f.label :hdd %>
+    <%= f.text_field :hdd %>
+  </p>
+
+  <p>
+    <%= f.label :department %>
+    <%= f.text_field :department %>
+  </p>
+
+  <p>
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </p>
+
+  <p>
+    <%= f.label :assigneeName %>
+    <%= f.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= f.label :status %>
+    <%= f.text_field :status %>
+  </p>
+
+  <p>
+    <%= f.label :Notes %>
+    <%= f.text_area :Notes %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

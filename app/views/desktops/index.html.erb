@@ -1,0 +1,31 @@
+<h1>LISTING DESKTOPS</h1>
+<p><%= link_to 'New Desktop', new_desktop_path %></p>
+<table>
+  <thead>
+    <tr>
+      <th>Manufacturer</th>
+      <th>Model</th>
+      <th>Jslgtag</th>
+      <th>Location</th>
+      <th>Assignedto</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @desktop.each do |desktop| %>
+      <tr>
+        <td><%= desktop.manufacturer %></td>
+        <td><%= desktop.equipmentModel %></td>
+        <td><%= desktop.jslgTag %></td>
+        <td><%= desktop.location %></td>
+        <td><%= desktop.assigneeName %></td>
+        <td><%= desktop.status %></td>
+        <td><%= link_to 'Show', desktop_path(desktop) %></td>
+      <td><%= link_to 'Edit', edit_desktop_path(desktop) %></td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
