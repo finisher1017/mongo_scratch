@@ -19,7 +19,17 @@ def create
   @desktop = Equipment.new(desktop_params)
  
   @desktop.save
-  redirect_to @desktop
+  redirect_to desktop_path(@desktop)
+end
+
+def update
+  @desktop = Equipment.where(equipmentType: "Desktop").find(params[:id])
+ 
+  if @desktop.update(desktop_params)
+    redirect_to desktop_path(@desktop)
+  else
+    render 'edit'
+  end
 end
 
 private

@@ -1898,3 +1898,1239 @@ Started GET "/desktops/new" for 127.0.0.1 at 2015-06-22 14:35:26 -0700
 Processing by DesktopsController#new as HTML
   Rendered desktops/new.html.erb within layouts/application (17.1ms)
 Completed 200 OK in 210ms (Views: 207.6ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000/edit" for 127.0.0.1 at 2015-06-23 10:58:59 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 258.4702ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 388.3208ms
+  Rendered desktops/edit.html.erb within layouts/application (1100.0ms)
+Completed 200 OK in 2149ms (Views: 1500.7ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 10:59:20 -0700
+
+AbstractController::ActionNotFound (The action 'update' could not be found for DesktopsController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (61.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (177.1ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:06:47 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S2K5CeeTa8PGN4x9AsmHDLt/F1k01Atc3B2+s/eD5k9sJhfMyx8iWAegpOrjhtm6Bz4GxowW8eYw6bF6+oGcLQ==", "desktop"=>{"manufacturer"=>"Lenovo", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.6926ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.7636ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e509e7275620ac6010000')} update={"$set"=>{"manufacturer"=>"Lenovo"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 221.1472ms
+Redirected to 
+Completed 500 Internal Server Error in 308ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x00000003e976b0>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (84.0ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:13:42 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S2K5CeeTa8PGN4x9AsmHDLt/F1k01Atc3B2+s/eD5k9sJhfMyx8iWAegpOrjhtm6Bz4GxowW8eYw6bF6+oGcLQ==", "desktop"=>{"manufacturer"=>"Lenovo", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.4208ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4761ms
+Redirected to 
+Completed 500 Internal Server Error in 69ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6d3a8238>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (78.8ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:17:01 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S2K5CeeTa8PGN4x9AsmHDLt/F1k01Atc3B2+s/eD5k9sJhfMyx8iWAegpOrjhtm6Bz4GxowW8eYw6bF6+oGcLQ==", "desktop"=>{"manufacturer"=>"Lenovo", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2641ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3492ms
+Completed 500 Internal Server Error in 48ms
+
+NameError (undefined local variable or method `desktop' for #<DesktopsController:0x007f0a6dfb9220>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (110.0ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:18:07 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S2K5CeeTa8PGN4x9AsmHDLt/F1k01Atc3B2+s/eD5k9sJhfMyx8iWAegpOrjhtm6Bz4GxowW8eYw6bF6+oGcLQ==", "desktop"=>{"manufacturer"=>"Lenovo", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9756ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0115ms
+Redirected to 
+Completed 500 Internal Server Error in 69ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6973cb00>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (92.1ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 11:36:30 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6583ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.6344ms
+  Rendered desktops/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 138ms (Views: 137.2ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 11:36:33 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 104ms (Views: 103.9ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 11:36:49 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+ktIqb5DiK63IGa2GfHMshnUr4MyEhplfdjZ0ynnAKYrYPninVHuXtLqQ05KJmEdCZDIbQKstN5A2yuQaXmYA==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589a7417275620d83000000'), "equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 61.9406ms
+Redirected to 
+Completed 500 Internal Server Error in 109ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x0000000604e290>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (91.7ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 11:37:59 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+ktIqb5DiK63IGa2GfHMshnUr4MyEhplfdjZ0ynnAKYrYPninVHuXtLqQ05KJmEdCZDIbQKstN5A2yuQaXmYA==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.1008ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589a7877275620d83010000'), "equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.4875ms
+Redirected to 
+Completed 500 Internal Server Error in 46ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6e477118>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (3.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (39.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (92.4ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 11:40:46 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v+ktIqb5DiK63IGa2GfHMshnUr4MyEhplfdjZ0ynnAKYrYPninVHuXtLqQ05KJmEdCZDIbQKstN5A2yuQaXmYA==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5358ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589a82e7275620d83020000'), "equipmentType"=>"Desktop", "manufacturer"=>"Asus", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.7545ms
+Redirected to 
+Completed 500 Internal Server Error in 72ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a69418a78>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (95.7ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 11:45:03 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.0513ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3393ms
+  Rendered desktops/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 123ms (Views: 122.0ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000/edit" for 127.0.0.1 at 2015-06-23 11:45:06 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 31.0853ms
+  Rendered desktops/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 130ms (Views: 98.1ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 11:52:18 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.9765ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.7782ms
+  Rendered desktops/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 105ms (Views: 104.2ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:52:21 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6876ms
+  Rendered desktops/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 154ms (Views: 152.1ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:53:35 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.9201ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.7910ms
+  Rendered desktops/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 99ms (Views: 89.0ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 11:54:19 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.0541ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7907ms
+  Rendered desktops/show.html.erb within layouts/application (41.4ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined local variable or method `desktop' for #<#<Class:0x007f0a694ef4b0>:0x007f0a6df5e4b0>):
+     8:   <%= @desktop.equipmentModel %>
+     9: </p>
+    10: 
+    11: <%= link_to 'Edit', edit_desktop_path(desktop) %>
+    12:  
+    13: <%= link_to 'Back', desktops_path %>
+  app/views/desktops/show.html.erb:11:in `_app_views_desktops_show_html_erb__682619237069403437_69841385613620'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (52.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (101.1ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:10:59 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4295ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4316ms
+  Rendered desktops/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 208ms (Views: 167.8ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-23 13:11:00 -0700
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 13:11:14 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.7499ms
+  Rendered desktops/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 135ms (Views: 134.1ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000/edit" for 127.0.0.1 at 2015-06-23 13:11:17 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7555ms
+  Rendered desktops/edit.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 140ms (Views: 130.6ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:11:32 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5pT+8Pd+AjFX1LXitXsT/nL430y+eY4+S2Ng0xwU7q/B0FA12/JLqpZDnXVUNE1IzrnO0wa7dISnl28aERaUzQ==", "desktop"=>{"manufacturer"=>"IBM", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1539ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e509e7275620ac6010000')} update={"$set"=>{"manufacturer"=>"IBM"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1.0536ms
+Redirected to 
+Completed 500 Internal Server Error in 32ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a694e41f0>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (57.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.6ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 13:11:59 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 123ms (Views: 122.9ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 13:12:12 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iUYnJZtSnK2dCyeSODVvGs4gdosa25cIWV0j6a1iGIquAongt97VNlycDwXZejGscmFnFKIZbbK1qSwgoGBi6A==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589bd9c7275620d83030000'), "equipmentType"=>"Desktop", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 4.8111ms
+Redirected to 
+Completed 500 Internal Server Error in 42ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x00000003c09718>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (4.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (43.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (4.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (88.0ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 13:14:54 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6611ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7832ms
+  Rendered desktops/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 97ms (Views: 96.5ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000/edit" for 127.0.0.1 at 2015-06-23 13:19:40 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5634ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6251ms
+  Rendered desktops/edit.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 147ms (Views: 143.1ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:19:44 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vmJDUDBzmddbdlLYcrFxinxVp5ohhS+diAK989iR1xCZJu2VHP/QTJrhek+T/i88wBS2BZlH1Sdk9rI61ZOtcg==", "desktop"=>{"manufacturer"=>"IBM", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3141ms
+Redirected to 
+Completed 500 Internal Server Error in 30ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a69dbd358>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (49.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (58.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (106.3ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 13:20:44 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 116ms (Views: 116.0ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 13:21:04 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U4Z9BO/b4cvOl92pDUO7hZhKfizS0NYR/7ygjCjoEPh0wtPBw1eoUA8A9T7sDOUzJAtvs2oSLKsTSK9FJepqmg==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Sony Vaio", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0298ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589bfb07275620d83040000'), "equipmentType"=>"Desktop", "manufacturer"=>"Sony Vaio", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1802.0512ms
+Redirected to 
+Completed 500 Internal Server Error in 1831ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6e5db388>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (39.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.7ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 13:59:07 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4451ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2228ms
+  Rendered desktops/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 440ms (Views: 391.4ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000/edit" for 127.0.0.1 at 2015-06-23 13:59:11 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8381ms
+  Rendered desktops/edit.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 108ms (Views: 103.3ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:59:16 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nIhhvzyiYEdxmnyHDmgpoOBjrrVIflp7/s+PrxlyI7S7zM96EC4p3LANVBDvJ3cWXCK/KvC8oMESO4BmFHBZ1g==", "desktop"=>{"manufacturer"=>"IBM", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1135ms
+Redirected to 
+Completed 500 Internal Server Error in 28ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6a166338>):
+  app/controllers/desktops_controller.rb:29:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (99.5ms)
+
+
+Started PATCH "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nIhhvzyiYEdxmnyHDmgpoOBjrrVIflp7/s+PrxlyI7S7zM96EC4p3LANVBDvJ3cWXCK/KvC8oMESO4BmFHBZ1g==", "desktop"=>{"manufacturer"=>"IBM", "equipmentModel"=>"Optiplex 980"}, "commit"=>"Save Desktop", "id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0290ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9664ms
+Redirected to http://localhost:3000/desktops/555e509e7275620ac6010000
+Completed 302 Found in 55ms
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.9682ms
+  Rendered desktops/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 113ms (Views: 106.4ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 13:59:56 -0700
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 14:00:25 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 122ms (Views: 121.0ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:00:50 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZz2wC8J6ic8AoarHmOe0QgYOdbUS4lzHULcx0wTJ4ha2FgFA4WjvP2Vrjz/LMBntFkoSWyJc8nxttMOQRFd6g==", "desktop"=>{"equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589c9027275620d83050000'), "equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.5304ms
+Redirected to http://localhost:3000/desktops/5589c9027275620d83050000
+Completed 302 Found in 11ms
+
+
+Started GET "/desktops/5589c9027275620d83050000" for 127.0.0.1 at 2015-06-23 14:00:50 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589c9027275620d83050000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589c9027275620d83050000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4150ms
+Completed 404 Not Found in 3ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589c9027275620d83050000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589c9027275620d83050000 ... (1 total) and the following ids were not found: 5589c9027275620d83050000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (102.1ms)
+
+
+Started GET "/desktops/5589c9027275620d83050000" for 127.0.0.1 at 2015-06-23 14:03:18 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589c9027275620d83050000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4388ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589c9027275620d83050000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3076ms
+Completed 404 Not Found in 40ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589c9027275620d83050000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589c9027275620d83050000 ... (1 total) and the following ids were not found: 5589c9027275620d83050000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (44.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (91.9ms)
+
+
+Started GET "/desktops/5589c9027275620d83050000" for 127.0.0.1 at 2015-06-23 14:04:03 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589c9027275620d83050000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8908ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589c9027275620d83050000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3956ms
+Completed 404 Not Found in 33ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589c9027275620d83050000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589c9027275620d83050000 ... (1 total) and the following ids were not found: 5589c9027275620d83050000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (34.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (100.6ms)
+
+
+Started GET "/desktops/5589c9027275620d83050000" for 127.0.0.1 at 2015-06-23 14:05:03 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589c9027275620d83050000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5570ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589c9027275620d83050000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3379ms
+Completed 404 Not Found in 34ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589c9027275620d83050000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589c9027275620d83050000 ... (1 total) and the following ids were not found: 5589c9027275620d83050000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (4.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (113.9ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:05:16 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZz2wC8J6ic8AoarHmOe0QgYOdbUS4lzHULcx0wTJ4ha2FgFA4WjvP2Vrjz/LMBntFkoSWyJc8nxttMOQRFd6g==", "desktop"=>{"equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589ca0c7275620d83060000'), "equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.8920ms
+Redirected to 
+Completed 500 Internal Server Error in 37ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a6e581cc0>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (3.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (100.0ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:05:30 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZz2wC8J6ic8AoarHmOe0QgYOdbUS4lzHULcx0wTJ4ha2FgFA4WjvP2Vrjz/LMBntFkoSWyJc8nxttMOQRFd6g==", "desktop"=>{"equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589ca1a7275620d83070000'), "equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.6254ms
+Completed 500 Internal Server Error in 46ms
+
+NameError (undefined local variable or method `desktop' for #<DesktopsController:0x007f0a6934cd10>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (4.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (89.3ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:05:55 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZz2wC8J6ic8AoarHmOe0QgYOdbUS4lzHULcx0wTJ4ha2FgFA4WjvP2Vrjz/LMBntFkoSWyJc8nxttMOQRFd6g==", "desktop"=>{"equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589ca337275620d83080000'), "equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 7.8098ms
+Completed 500 Internal Server Error in 49ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"desktops"} missing required keys: [:id]):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (97.5ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZz2wC8J6ic8AoarHmOe0QgYOdbUS4lzHULcx0wTJ4ha2FgFA4WjvP2Vrjz/LMBntFkoSWyJc8nxttMOQRFd6g==", "desktop"=>{"equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.5989ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589cb007275620d83090000'), "equipmentType"=>"Tower", "manufacturer"=>"IBM", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1.1836ms
+Redirected to http://localhost:3000/desktops
+Completed 302 Found in 48ms
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9878ms
+  Rendered desktops/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 133ms (Views: 131.7ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:20 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:21 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:21 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:21 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:09:21 -0700
+
+
+Started GET "/desktops/5589bfb07275620d83040000/edit" for 127.0.0.1 at 2015-06-23 14:10:18 -0700
+Processing by DesktopsController#edit as HTML
+  Parameters: {"id"=>"5589bfb07275620d83040000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.7301ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589bfb07275620d83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6989ms
+  Rendered desktops/edit.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 117ms (Views: 106.9ms)
+
+
+Started PATCH "/desktops/5589bfb07275620d83040000" for 127.0.0.1 at 2015-06-23 14:10:38 -0700
+Processing by DesktopsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7m3TIzICCAjbpsSHusck3bOObgYTys445A05t4MJRzPJKX3mHo5Bkxox7BBbiHprD89/masINIII+TZ+jgs9UQ==", "desktop"=>{"manufacturer"=>"Sony Vaio", "equipmentModel"=>"Some Model"}, "commit"=>"Save Desktop", "id"=>"5589bfb07275620d83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589bfb07275620d83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3555ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5589bfb07275620d83040000')} update={"$set"=>{"equipmentModel"=>"Some Model"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.5333ms
+Redirected to http://localhost:3000/desktops/5589bfb07275620d83040000
+Completed 302 Found in 12ms
+
+
+Started GET "/desktops/5589bfb07275620d83040000" for 127.0.0.1 at 2015-06-23 14:10:39 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589bfb07275620d83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589bfb07275620d83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.6094ms
+  Rendered desktops/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 162ms (Views: 155.1ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 14:12:04 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4362ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0435ms
+  Rendered desktops/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 146ms (Views: 123.6ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 14:12:16 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 117ms (Views: 116.4ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:12:38 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vOH0uTrFhN5JGiV0WbdljIt+spC3yyIEm4OWgAMB52ebpVp8FknNRYiNDeO4+Ds6Nz+jDw8J2L53d5lJDgOdBQ==", "desktop"=>{"equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589cbc67275620d830a0000'), "equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.7336ms
+Redirected to http://localhost:3000/desktops.5589cbc67275620d830a0000
+Completed 302 Found in 10ms
+
+
+Started GET "/desktops.5589cbc67275620d830a0000" for 127.0.0.1 at 2015-06-23 14:12:38 -0700
+Processing by DesktopsController#index as 
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.3636ms
+  Rendered desktops/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 151ms (Views: 150.5ms)
+
+
+Started GET "/desktops.5589cbc67275620d830a0000" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+Processing by DesktopsController#index as 
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.8054ms
+  Rendered desktops/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 127ms (Views: 126.2ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-23 14:13:03 -0700
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:13:46 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vOH0uTrFhN5JGiV0WbdljIt+spC3yyIEm4OWgAMB52ebpVp8FknNRYiNDeO4+Ds6Nz+jDw8J2L53d5lJDgOdBQ==", "desktop"=>{"equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.4930ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589cc0a7275620d830b0000'), "equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.3910ms
+Redirected to http://localhost:3000/desktops.5589cc0a7275620d830b0000
+Completed 302 Found in 12ms
+
+
+Started GET "/desktops.5589cc0a7275620d830b0000" for 127.0.0.1 at 2015-06-23 14:13:46 -0700
+Processing by DesktopsController#index as 
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9662ms
+  Rendered desktops/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 137ms (Views: 136.5ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:13:58 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vOH0uTrFhN5JGiV0WbdljIt+spC3yyIEm4OWgAMB52ebpVp8FknNRYiNDeO4+Ds6Nz+jDw8J2L53d5lJDgOdBQ==", "desktop"=>{"equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589cc167275620d830c0000'), "equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 6.2089ms
+Redirected to http://localhost:3000/desktops/5589cc167275620d830c0000
+Completed 302 Found in 50ms
+
+
+Started GET "/desktops/5589cc167275620d830c0000" for 127.0.0.1 at 2015-06-23 14:13:58 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589cc167275620d830c0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589cc167275620d830c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4898ms
+Completed 404 Not Found in 3ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589cc167275620d830c0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589cc167275620d830c0000 ... (1 total) and the following ids were not found: 5589cc167275620d830c0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (35.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (86.0ms)
+
+
+Started GET "/desktops/5589cc167275620d830c0000" for 127.0.0.1 at 2015-06-23 14:15:53 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589cc167275620d830c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5038ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589cc167275620d830c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3278ms
+Completed 404 Not Found in 92ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5589cc167275620d830c0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5589cc167275620d830c0000 ... (1 total) and the following ids were not found: 5589cc167275620d830c0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (5.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (103.5ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:16:04 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vOH0uTrFhN5JGiV0WbdljIt+spC3yyIEm4OWgAMB52ebpVp8FknNRYiNDeO4+Ds6Nz+jDw8J2L53d5lJDgOdBQ==", "desktop"=>{"equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589cc947275620d830d0000'), "equipmentType"=>"Server", "manufacturer"=>"Dell", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 96.9426ms
+Completed 500 Internal Server Error in 111ms
+
+NameError (undefined local variable or method `desktop' for #<DesktopsController:0x007f0a6a2020d0>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (45.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (91.3ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-23 14:45:23 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.1637ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9662ms
+  Rendered desktops/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 141ms (Views: 140.1ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2015-06-23 14:45:26 -0700
+Processing by DesktopsController#new as HTML
+  Rendered desktops/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 105ms (Views: 104.5ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:45:46 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KwuX1Qaymm3IeB+7zMQkV6sPGP07G900dx3/xf+y4LMMTzkQKj7T9gnvNywti3rhF04JYoPZJ46b6fAM8rCa0Q==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589d38a7275620d830e0000'), "equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 3.1627ms
+Completed 500 Internal Server Error in 15ms
+
+NameError (undefined local variable or method `desktop' for #<DesktopsController:0x007f0a6e0eef50>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (68.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (59.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (106.9ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:46:15 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KwuX1Qaymm3IeB+7zMQkV6sPGP07G900dx3/xf+y4LMMTzkQKj7T9gnvNywti3rhF04JYoPZJ46b6fAM8rCa0Q==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589d3a77275620d830f0000'), "equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 6.8215ms
+Redirected to 
+Completed 500 Internal Server Error in 64ms
+
+NoMethodError (undefined method `equipment_url' for #<DesktopsController:0x007f0a68eecb80>):
+  app/controllers/desktops_controller.rb:22:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (55.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (95.5ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KwuX1Qaymm3IeB+7zMQkV6sPGP07G900dx3/xf+y4LMMTzkQKj7T9gnvNywti3rhF04JYoPZJ46b6fAM8rCa0Q==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Desktop"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5589d3c37275620d83100000'), "equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"", "jslgTag"=>"", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.6906ms
+Redirected to http://localhost:3000/desktops/5589d3c37275620d83100000
+Completed 302 Found in 46ms
+
+
+Started GET "/desktops/5589d3c37275620d83100000" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"5589d3c37275620d83100000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('5589d3c37275620d83100000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4979ms
+  Rendered desktops/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 105ms (Views: 100.7ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-23 14:46:43 -0700

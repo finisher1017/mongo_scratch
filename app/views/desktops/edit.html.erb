@@ -1,13 +1,36 @@
-<h1>Editing Desktops</h1>
+<h1>EDITING DESKTOP</h1>
+ 
+<%= form_for :desktop, url: desktop_path(@desktop), method: :patch do |desktop| %>
+ 
+  <% if @desktop.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@desktop.errors.count, "error") %> prohibited
+        this desktop from being saved:
+      </h2>
+      <ul>
+        <% @desktop.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= desktop.label :manufacturer %><br>
+    <%= desktop.text_field :manufacturer %>
+  </p>
+ 
+  <p>
+    <%= desktop.label :equipmentModel %><br>
+    <%= desktop.text_area :equipmentModel %>
+  </p>
+ 
+  <p>
+    <%= desktop.submit %>
+  </p>
+ 
+<% end %>
+ 
 
-<p>
-  <strong>Manufacturer:</strong>
-  <%= @desktop.manufacturer %>
-</p>
- 
-<p>
-  <strong>Model:</strong>
-  <%= @desktop.equipmentModel %>
-</p>
-  
- 
+<%= link_to 'Back', desktops_path %>
