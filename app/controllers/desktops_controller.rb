@@ -32,6 +32,13 @@ def update
   end
 end
 
+def destroy
+  @desktop = Equipment.where(equipmentType: "Desktop").find(params[:id])
+  @desktop.destroy
+ 
+  redirect_to desktops_path
+end
+
 private
   def desktop_params
     params.require(:desktop).permit(:id, :equipmentType, :manufacturer,

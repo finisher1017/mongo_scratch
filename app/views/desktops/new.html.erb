@@ -1,82 +1,82 @@
 <h1>NEW DESKTOP</h1>
 
-<%= form_for :desktop, url: desktops_path do |f| %>
+<%= form_for :desktop, url: desktops_path do |desktop| %>
   <p>
-    <%= f.label :Type %>
-    <%= f.text_field :equipmentType %>
+    <%= desktop.label :Type %>
+    <%= desktop.text_field :equipmentType %>
   </p>
  
   <p>
-    <%= f.label :manufacturer %>
-    <%= f.text_field :manufacturer %>
+    <%= desktop.label :manufacturer %>
+    <%= desktop.text_field :manufacturer %>
   </p>
 
   <p>
-    <%= f.label :equipmentModel %>
-    <%= f.text_field :equipmentModel %>
+    <%= desktop.label :equipmentModel %>
+    <%= desktop.text_field :equipmentModel %>
   </p>
 
   <p>
-    <%= f.label :jslgTag %>
-    <%= f.text_field :jslgTag %>
+    <%= desktop.label :jslgTag %>
+    <%= desktop.text_field :jslgTag %>
   </p>
 
   <p>
-    <%= f.label :manufacturerTag %>
-    <%= f.text_field :manufacturerTag %>
+    <%= desktop.label :manufacturerTag %>
+    <%= desktop.text_field :manufacturerTag %>
   </p>
 
   <p>
-    <%= f.label :serialNumber %>
-    <%= f.text_field :serialNumber %>
+    <%= desktop.label :serialNumber %>
+    <%= desktop.text_field :serialNumber %>
   </p>
 
   <p>
-    <%= f.label :osType %>
-    <%= f.text_field :osType %>
+    <%= desktop.label :osType %>
+    <%= desktop.text_field :osType %>
   </p>
 
   <p>
-    <%= f.label :hostName %>
-    <%= f.text_field :hostName %>
+    <%= desktop.label :hostName %>
+    <%= desktop.text_field :hostName %>
   </p>
 
   <p>
-    <%= f.label :ram %>
-    <%= f.text_field :ram %>
+    <%= desktop.label :ram %>
+    <%= desktop.text_field :ram %>
   </p>
 
   <p>
-    <%= f.label :hdd %>
-    <%= f.text_field :hdd %>
+    <%= desktop.label :hdd %>
+    <%= desktop.text_field :hdd %>
   </p>
 
   <p>
-    <%= f.label :department %>
-    <%= f.text_field :department %>
+    <%= desktop.label :department %>
+    <%= desktop.text_field :department %>
   </p>
 
   <p>
-    <%= f.label :location %>
-    <%= f.text_field :location %>
+    <%= desktop.label :location %>
+    <%= desktop.text_field :location %>
   </p>
 
   <p>
-    <%= f.label :assigneeName %>
-    <%= f.text_field :assigneeName %>
+    <%= desktop.label :assigneeName %>
+    <%= desktop.text_field :assigneeName %>
   </p>
 
   <p>
-    <%= f.label :status %>
-    <%= f.text_field :status %>
+    <%= desktop.label :status %>
+    <%= desktop.text_field :status %>
   </p>
 
   <p>
-    <%= f.label :Notes %>
-    <%= f.text_area :Notes %>
+    <%= desktop.label :notes %>
+    <%= desktop.text_area :notes %>
   </p>
  
   <p>
-    <%= f.submit %>
+    <%= desktop.submit %>
   </p>
 <% end %>

@@ -23,8 +23,10 @@
         <td><%= desktop.assigneeName %></td>
         <td><%= desktop.status %></td>
         <td><%= link_to 'Show', desktop_path(desktop) %></td>
-      <td><%= link_to 'Edit', edit_desktop_path(desktop) %></td>
-        
+        <td><%= link_to 'Edit', edit_desktop_path(desktop) %></td>
+        <td><%= link_to 'Destroy', desktop_path(desktop),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

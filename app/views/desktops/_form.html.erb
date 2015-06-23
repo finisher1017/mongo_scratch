@@ -1,0 +1,95 @@
+<%= form_for @desktop do |desktop| %>
+ 
+  <% if @desktop.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@desktop.errors.count, "error") %> prohibited
+        this desktop from being saved:
+      </h2>
+      <ul>
+        <% @desktop.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+    <p>
+    <%= desktop.label :Type %>
+    <%= desktop.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= desktop.label :manufacturer %>
+    <%= desktop.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= desktop.label :equipmentModel %>
+    <%= desktop.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= desktop.label :jslgTag %>
+    <%= desktop.text_field :jslgTag %>
+  </p>
+
+  <p>
+    <%= desktop.label :manufacturerTag %>
+    <%= desktop.text_field :manufacturerTag %>
+  </p>
+
+  <p>
+    <%= desktop.label :serialNumber %>
+    <%= desktop.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= desktop.label :osType %>
+    <%= desktop.text_field :osType %>
+  </p>
+
+  <p>
+    <%= desktop.label :hostName %>
+    <%= desktop.text_field :hostName %>
+  </p>
+
+  <p>
+    <%= desktop.label :ram %>
+    <%= desktop.text_field :ram %>
+  </p>
+
+  <p>
+    <%= desktop.label :hdd %>
+    <%= desktop.text_field :hdd %>
+  </p>
+
+  <p>
+    <%= desktop.label :department %>
+    <%= desktop.text_field :department %>
+  </p>
+
+  <p>
+    <%= desktop.label :location %>
+    <%= desktop.text_field :location %>
+  </p>
+
+  <p>
+    <%= desktop.label :assigneeName %>
+    <%= desktop.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= desktop.label :status %>
+    <%= desktop.text_field :status %>
+  </p>
+
+  <p>
+    <%= desktop.label :Notes %>
+    <%= desktop.text_area :Notes %>
+  </p>
+ 
+  <p>
+    <%= desktop.submit %>
+  </p>
+<% end %>
