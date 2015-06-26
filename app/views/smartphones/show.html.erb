@@ -1,19 +1,72 @@
-<h1>LISTING SMARTPHONES</h1>
-<table>
-  <tr>
-    <th>Type</th>
-    <th>Manufacturer</th>
-    <th>Model</th>
-    <th>Phone Number</th>
-  </tr>
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @smartPhone.manufacturer %>
+</p>
+ 
+<p>
+  <strong>Model:</strong>
+  <%= @smartPhone.equipmentModel %>
+</p>
 
-  <% @smartPhone.each do |smartphone| %>
-    <tr>
-      <td><%= smartphone.equipmentType %></td>
-      <td><%= smartphone.manufacturer %></td>
-      <td><%= smartphone.equipmentModel %></td>
-      <td><%= smartphone.phoneNumber %></td>
+<p>
+  <strong>JSLG Tag:</strong>
+  <%= @smartPhone.carrier %>
+</p>
+ 
+<p>
+  <strong>Service Tag:</strong>
+  <%= @smartPhone.phoneNumber %>
+</p>
 
-  <% end %>
+<p>
+  <strong>Serial Number:</strong>
+  <%= @smartPhone.serialNumber %>
+</p>
+ 
+<p>
+  <strong>OS Type:</strong>
+  <%= @smartPhone.meid %>
+</p>
 
-</table>
+<p>
+  <strong>Host Name:</strong>
+  <%= @smartPhone.macAddress %>
+</p>
+ 
+<p>
+  <strong>RAM:</strong>
+  <%= @smartPhone.department %>
+</p>
+
+<p>
+  <strong>HDD:</strong>
+  <%= @smartPhone.location %>
+</p>
+ 
+<p>
+  <strong>Department:</strong>
+  <%= @smartPhone.department %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @smartPhone.location %>
+</p>
+ 
+<p>
+  <strong>Assigned to:</strong>
+  <%= @smartPhone.assigneeName %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @smartPhone.status %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @smartPhone.notes %>
+</p>
+
+ 
+<%= link_to 'Back', smartphones_path %>

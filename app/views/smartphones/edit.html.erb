@@ -1,0 +1,87 @@
+<h1>EDITING SMARTPHONE</h1>
+ 
+<%= form_for :smartphone, url: smartphone_path(@smartPhone), method: :patch do |smartphone| %>
+ 
+  <% if @smartPhone.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@smartPhone.errors.count, "error") %> prohibited
+        this smartphone from being saved:
+      </h2>
+      <ul>
+        <% @smartPhone.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= smartphone.label :Type %>
+    <%= smartphone.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= smartphone.label :manufacturer %>
+    <%= smartphone.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= smartphone.label :equipmentModel %>
+    <%= smartphone.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= smartphone.label :carrier %>
+    <%= smartphone.text_field :carrier %>
+  </p>
+
+  <p>
+    <%= smartphone.label :phoneNumber %>
+    <%= smartphone.text_field :phoneNumber %>
+  </p>
+
+  <p>
+    <%= smartphone.label :serialNumber %>
+    <%= smartphone.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= smartphone.label :meid %>
+    <%= smartphone.text_field :meid %>
+  </p>
+
+  <p>
+    <%= smartphone.label :macAddress %>
+    <%= smartphone.text_field :macAddress %>
+  </p>
+
+  <p>
+    <%= smartphone.label :department %>
+    <%= smartphone.text_field :department %>
+  </p>
+
+  <p>
+    <%= smartphone.label :location %>
+    <%= smartphone.text_field :location %>
+  </p>
+
+  <p>
+    <%= smartphone.label :assigneeName %>
+    <%= smartphone.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= smartphone.label :status %>
+    <%= smartphone.text_field :status %>
+  </p>
+
+  <p>
+    <%= smartphone.label :Notes %>
+    <%= smartphone.text_area :Notes %>
+  </p>
+ 
+<% end %>
+ 
+
+<%= link_to 'Back', smartphones_path %>

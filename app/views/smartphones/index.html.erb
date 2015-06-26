@@ -2,16 +2,27 @@
  
 <table>
   <tr>
-    <th>Type</th>
     <th>Manufacturer</th>
     <th>Model</th>
+    <th>Jslgtag</th>
+    <th>Location</th>
+    <th>Assignedto</th>
+    <th>Status</th>
+    <th colspan="3"></th>
   </tr>
- 
+
+<tbody> 
   <% @smartPhone.each do |smartphone| %>
     <tr>
-      <td><%= smartphone.equipmentType %></td>
       <td><%= smartphone.manufacturer %></td>
       <td><%= smartphone.equipmentModel %></td>
+      <td><%= smartphone.jslgTag %></td>
+        <td><%= smartphone.location %></td>
+        <td><%= smartphone.assigneeName %></td>
+        <td><%= smartphone.status %></td>
+        <td><%= link_to 'Show', smartphone_path(smartphone) %></td>
+        <td><%= link_to 'Edit', edit_smartphone_path(smartphone) %></td>
     </tr>
   <% end %>
+<tbody>
 </table>
