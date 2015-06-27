@@ -1,21 +1,7 @@
 <h1>EDITING SMARTPHONE</h1>
  
-<%= form_for :smartphone, url: smartphone_path(@smartPhone), method: :patch do |smartphone| %>
- 
-  <% if @smartPhone.errors.any? %>
-    <div id="error_explanation">
-      <h2>
-        <%= pluralize(@smartPhone.errors.count, "error") %> prohibited
-        this smartphone from being saved:
-      </h2>
-      <ul>
-        <% @smartPhone.errors.full_messages.each do |msg| %>
-          <li><%= msg %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
- 
+<%= form_for :smartPhone, url: smartphone_path(@smartPhone), method: :patch do |smartphone| %>
+
   <p>
     <%= smartphone.label :Type %>
     <%= smartphone.text_field :equipmentType %>
@@ -78,10 +64,11 @@
 
   <p>
     <%= smartphone.label :Notes %>
-    <%= smartphone.text_area :Notes %>
+    <%= smartphone.text_area :notes %>
   </p>
  
-<% end %>
- 
+  <p>
+    <%= smartphone.submit %>
+  </p>
 
-<%= link_to 'Back', smartphones_path %>
+<% end %>
