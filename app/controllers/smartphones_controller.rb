@@ -29,7 +29,7 @@ def update
     redirect_to smartphones_path(@smartPhone)
   else
     render 'edit'
-  end
+  end 
 end
 
 def destroy
@@ -41,7 +41,7 @@ end
 
 private
   def smartphone_params
-    params.require(:smartphone).permit(:id, :equipmentType, :manufacturer,
+    params.require(:smartPhone).permit(:id, :equipmentType, :manufacturer,
   									:equipmentModel, :carrier, 
   									:phoneNumber, :serialNumber,
   									:meid, :macAddress, :department,

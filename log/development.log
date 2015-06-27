@@ -7280,3 +7280,199 @@ Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f4
 
 
 Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-26 20:53:43 -0700
+
+
+Started PATCH "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:18:37 -0700
+Processing by SmartphonesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7C3LKsEXd8eb/uplDq0bXk6znrJff+QTsVQdPy+hc4z3ocPeYvrkliai399yVnLHIdirbUL6dBjjs0rBlNJQ==", "smartPhone"=>{"equipmentType"=>"Smartphone", "manufacturer"=>"Apple", "equipmentModel"=>"iPhone 6c", "carrier"=>"Verizon", "phoneNumber"=>"415-555-2614", "serialNumber"=>"44948589303", "meid"=>"998548501", "macAddress"=>"N/A", "department"=>"Activities", "location"=>"3 West", "assigneeName"=>"Suzy Scragg", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Smartphone", "id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9109ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7827ms
+Completed 400 Bad Request in 17ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: smartphone):
+  app/controllers/smartphones_controller.rb:44:in `smartphone_params'
+  app/controllers/smartphones_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (63.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (112.3ms)
+
+
+Started PATCH "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:20:45 -0700
+Processing by SmartphonesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7C3LKsEXd8eb/uplDq0bXk6znrJff+QTsVQdPy+hc4z3ocPeYvrkliai399yVnLHIdirbUL6dBjjs0rBlNJQ==", "smartPhone"=>{"equipmentType"=>"Smartphone", "manufacturer"=>"Apple", "equipmentModel"=>"iPhone 6c", "carrier"=>"Verizon", "phoneNumber"=>"415-555-2614", "serialNumber"=>"44948589303", "meid"=>"998548501", "macAddress"=>"N/A", "department"=>"Activities", "location"=>"3 West", "assigneeName"=>"Suzy Scragg", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Smartphone", "id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5452ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1218ms
+Completed 400 Bad Request in 7ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: smartphone):
+  app/controllers/smartphones_controller.rb:44:in `smartphone_params'
+  app/controllers/smartphones_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (85.5ms)
+
+
+Started PATCH "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:23:51 -0700
+Processing by SmartphonesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7C3LKsEXd8eb/uplDq0bXk6znrJff+QTsVQdPy+hc4z3ocPeYvrkliai399yVnLHIdirbUL6dBjjs0rBlNJQ==", "smartPhone"=>{"equipmentType"=>"Smartphone", "manufacturer"=>"Apple", "equipmentModel"=>"iPhone 6c", "carrier"=>"Verizon", "phoneNumber"=>"415-555-2614", "serialNumber"=>"44948589303", "meid"=>"998548501", "macAddress"=>"N/A", "department"=>"Activities", "location"=>"3 West", "assigneeName"=>"Suzy Scragg", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Smartphone", "id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 4.6927ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6425ms
+Completed 400 Bad Request in 8ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: smartphone):
+  app/controllers/smartphones_controller.rb:44:in `smartphone_params'
+  app/controllers/smartphones_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (3.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (82.2ms)
+
+
+Started PATCH "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:25:09 -0700
+Processing by SmartphonesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7C3LKsEXd8eb/uplDq0bXk6znrJff+QTsVQdPy+hc4z3ocPeYvrkliai399yVnLHIdirbUL6dBjjs0rBlNJQ==", "smartPhone"=>{"equipmentType"=>"Smartphone", "manufacturer"=>"Apple", "equipmentModel"=>"iPhone 6c", "carrier"=>"Verizon", "phoneNumber"=>"415-555-2614", "serialNumber"=>"44948589303", "meid"=>"998548501", "macAddress"=>"N/A", "department"=>"Activities", "location"=>"3 West", "assigneeName"=>"Suzy Scragg", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Smartphone", "id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7398ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9348ms
+Completed 400 Bad Request in 41ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: smartphone):
+  app/controllers/smartphones_controller.rb:44:in `smartphone_params'
+  app/controllers/smartphones_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (47.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (93.8ms)
+
+
+Started PATCH "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:35:41 -0700
+Processing by SmartphonesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mx7C3LKsEXd8eb/uplDq0bXk6znrJff+QTsVQdPy+hc4z3ocPeYvrkliai399yVnLHIdirbUL6dBjjs0rBlNJQ==", "smartPhone"=>{"equipmentType"=>"Smartphone", "manufacturer"=>"Apple", "equipmentModel"=>"iPhone 6c", "carrier"=>"Verizon", "phoneNumber"=>"415-555-2614", "serialNumber"=>"44948589303", "meid"=>"998548501", "macAddress"=>"N/A", "department"=>"Activities", "location"=>"3 West", "assigneeName"=>"Suzy Scragg", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Smartphone", "id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.7429ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.7351ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('555e64757275620ac6030000')} update={"$set"=>{"meid"=>"998548501", "notes"=>""}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 920.1868ms
+Redirected to http://localhost:3000/smartphones.555e64757275620ac6030000
+Completed 302 Found in 993ms
+
+
+Started GET "/smartphones.555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:35:42 -0700
+Processing by SmartphonesController#index as 
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9694ms
+  Rendered smartphones/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 124ms (Views: 117.2ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-27 08:35:42 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-27 08:35:42 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-27 08:35:43 -0700
+
+
+Started GET "/smartphones/555e64757275620ac6030000" for 127.0.0.1 at 2015-06-27 08:35:47 -0700
+Processing by SmartphonesController#show as HTML
+  Parameters: {"id"=>"555e64757275620ac6030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('555e64757275620ac6030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1195ms
+  Rendered smartphones/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 135ms (Views: 130.9ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2015-06-27 08:36:12 -0700
+Processing by SmartphonesController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.0727ms
+  Rendered smartphones/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 112ms (Views: 111.7ms)
+
+
+Started DELETE "/smartphones/558de1df727562101c010000" for 127.0.0.1 at 2015-06-27 08:36:41 -0700
+Processing by SmartphonesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UHe8xSX7UAv28yArEofTOjmH9krqDJcDeHnNNCFV+7LzpgQFqrFu0sPo9ehJIByMoBEA+bf9T1p4zONBXr5MgA==", "id"=>"558de1df727562101c010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('558de1df727562101c010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7087ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('558de1df727562101c010000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 136.2818ms
+Redirected to http://localhost:3000/smartphones
+Completed 302 Found in 144ms
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2015-06-27 08:36:41 -0700
+Processing by SmartphonesController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6456ms
+  Rendered smartphones/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 123ms (Views: 121.7ms)
+
+
+Started GET "/smartphones/558de166727562101c000000/edit" for 127.0.0.1 at 2015-06-27 08:39:09 -0700
+Processing by SmartphonesController#edit as HTML
+  Parameters: {"id"=>"558de166727562101c000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.5986ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone", "_id"=>BSON::ObjectId('558de166727562101c000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7747ms
+  Rendered smartphones/edit.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 145ms (Views: 131.2ms)
