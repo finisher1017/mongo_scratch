@@ -1,5 +1,5 @@
-<h1>Listing Equipment</h1>
- 
+<h1>Listing Smartphones</h1>
+<p><%= link_to 'New Smartphone', new_smartphone_path %></p>
 <table>
   <tr>
     <th>Manufacturer</th>
@@ -12,7 +12,7 @@
   </tr>
 
 <tbody> 
-  <% @smartPhone.each do |smartphone| %>
+  <% @smartphone.each do |smartphone| %>
     <tr>
       <td><%= smartphone.manufacturer %></td>
       <td><%= smartphone.equipmentModel %></td>

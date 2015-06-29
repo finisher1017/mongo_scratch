@@ -1,0 +1,33 @@
+<h1>LISTING DTUs</h1>
+<p><%= link_to 'New DTU', new_dtu_path %></p>
+<table>
+  <thead>
+    <tr>
+      <th>Manufacturer</th>
+      <th>Model</th>
+      <th>Jslgtag</th>
+      <th>Location</th>
+      <th>Assignedto</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dtu.each do |dtu| %>
+      <tr>
+        <td><%= dtu.manufacturer %></td>
+        <td><%= dtu.equipmentModel %></td>
+        <td><%= dtu.jslgTag %></td>
+        <td><%= dtu.location %></td>
+        <td><%= dtu.assigneeName %></td>
+        <td><%= dtu.status %></td>
+        <td><%= link_to 'Show', dtu_path(dtu) %></td>
+        <td><%= link_to 'Edit', edit_dtu_path(dtu) %></td>
+        <td><%= link_to 'Destroy', dtu_path(dtu),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

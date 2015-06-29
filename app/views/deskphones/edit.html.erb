@@ -1,0 +1,64 @@
+<h1>EDITING DESKPHONE</h1>
+ 
+<%= form_for :deskphone, url: deskphone_path(@deskphone), method: :patch do |deskphone| %>
+
+  <p>
+    <%= deskphone.label :Type %>
+    <%= deskphone.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= deskphone.label :manufacturer %>
+    <%= deskphone.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= deskphone.label :equipmentModel %>
+    <%= deskphone.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= deskphone.label :phoneNumber %>
+    <%= deskphone.text_field :phoneNumber %>
+  </p>
+
+  <p>
+    <%= deskphone.label :serialNumber %>
+    <%= deskphone.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= deskphone.label :macAddress %>
+    <%= deskphone.text_field :macAddress %>
+  </p>
+
+  <p>
+    <%= deskphone.label :department %>
+    <%= deskphone.text_field :department %>
+  </p>
+
+  <p>
+    <%= deskphone.label :location %>
+    <%= deskphone.text_field :location %>
+  </p>
+
+  <p>
+    <%= deskphone.label :assigneeName %>
+    <%= deskphone.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= deskphone.label :status %>
+    <%= deskphone.text_field :status %>
+  </p>
+
+  <p>
+    <%= deskphone.label :Notes %>
+    <%= deskphone.text_area :notes %>
+  </p>
+ 
+  <p>
+    <%= deskphone.submit %>
+  </p>
+
+<% end %>

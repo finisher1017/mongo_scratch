@@ -1,0 +1,92 @@
+<h1>EDITING DTU</h1>
+ 
+<%= form_for :dtu, url: dtu_path(@dtu), method: :patch do |dtu| %>
+ 
+  <% if @dtu.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@dtu.errors.count, "error") %> prohibited
+        this dtu from being saved:
+      </h2>
+      <ul>
+        <% @dtu.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= dtu.label :Type %>
+    <%= dtu.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= dtu.label :manufacturer %>
+    <%= dtu.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= dtu.label :equipmentModel %>
+    <%= dtu.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= dtu.label :jslgTag %>
+    <%= dtu.text_field :jslgTag %>
+  </p>
+
+  <p>
+    <%= dtu.label :manufacturerTag %>
+    <%= dtu.text_field :manufacturerTag %>
+  </p>
+
+  <p>
+    <%= dtu.label :serialNumber %>
+    <%= dtu.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= dtu.label :macAddress %>
+    <%= dtu.text_field :macAddress %>
+  </p>
+
+  <p>
+    <%= dtu.label :hostName %>
+    <%= dtu.text_field :hostName %>
+  </p>
+
+
+  <p>
+    <%= dtu.label :department %>
+    <%= dtu.text_field :department %>
+  </p>
+
+  <p>
+    <%= dtu.label :location %>
+    <%= dtu.text_field :location %>
+  </p>
+
+  <p>
+    <%= dtu.label :assigneeName %>
+    <%= dtu.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= dtu.label :status %>
+    <%= dtu.text_field :status %>
+  </p>
+
+  <p>
+    <%= dtu.label :notes %>
+    <%= dtu.text_area :notes %>
+  </p>
+ 
+  <p>
+    <%= dtu.submit %>
+  </p>
+ 
+<% end %>
+ 
+
+<%= link_to 'Back', dtus_path %>

@@ -1,47 +1,47 @@
 class SmartphonesController < ApplicationController
 
 def index
-	@smartPhone = Equipment.where(equipmentType: "Smartphone")
+	@smartphone = Equipment.where(equipmentType: "Smartphone")
 end
 
 def show
-  @smartPhone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
+  @smartphone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
 end
 
 def new
 end
 
 def edit
-  @smartPhone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
+  @smartphone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
 end
 
 def create
-  @smartPhone = Equipment.new(smartphone_params)
+  @smartphone = Equipment.new(smartphone_params)
  
-  @smartPhone.save
-  redirect_to smartphone_path(@smartPhone)
+  @smartphone.save
+  redirect_to smartphone_path(@smartphone)
 end
 
 def update
-  @smartPhone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
+  @smartphone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
  
-  if @smartPhone.update(smartphone_params)
-    redirect_to smartphones_path(@smartPhone)
+  if @smartphone.update(smartphone_params)
+    redirect_to smartphone_path(@smartphone)
   else
     render 'edit'
   end 
 end
 
 def destroy
-  @smartPhone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
-  @smartPhone.destroy
+  @smartphone = Equipment.where(equipmentType: "Smartphone").find(params[:id])
+  @smartphone.destroy
  
   redirect_to smartphones_path
 end
 
 private
   def smartphone_params
-    params.require(:smartPhone).permit(:id, :equipmentType, :manufacturer,
+    params.require(:smartphone).permit(:id, :equipmentType, :manufacturer,
   									:equipmentModel, :carrier, 
   									:phoneNumber, :serialNumber,
   									:meid, :macAddress, :department,

@@ -1,0 +1,101 @@
+<h1>EDITING LAPTOP</h1>
+ 
+<%= form_for :laptop, url: laptop_path(@laptop), method: :patch do |laptop| %>
+ 
+  <% if @laptop.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@laptop.errors.count, "error") %> prohibited
+        this laptop from being saved:
+      </h2>
+      <ul>
+        <% @laptop.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= laptop.label :Type %>
+    <%= laptop.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= laptop.label :manufacturer %>
+    <%= laptop.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= laptop.label :equipmentModel %>
+    <%= laptop.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= laptop.label :jslgTag %>
+    <%= laptop.text_field :jslgTag %>
+  </p>
+
+  <p>
+    <%= laptop.label :manufacturerTag %>
+    <%= laptop.text_field :manufacturerTag %>
+  </p>
+
+  <p>
+    <%= laptop.label :serialNumber %>
+    <%= laptop.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= laptop.label :osType %>
+    <%= laptop.text_field :osType %>
+  </p>
+
+  <p>
+    <%= laptop.label :hostName %>
+    <%= laptop.text_field :hostName %>
+  </p>
+
+  <p>
+    <%= laptop.label :ram %>
+    <%= laptop.text_field :ram %>
+  </p>
+
+  <p>
+    <%= laptop.label :hdd %>
+    <%= laptop.text_field :hdd %>
+  </p>
+
+  <p>
+    <%= laptop.label :department %>
+    <%= laptop.text_field :department %>
+  </p>
+
+  <p>
+    <%= laptop.label :location %>
+    <%= laptop.text_field :location %>
+  </p>
+
+  <p>
+    <%= laptop.label :assigneeName %>
+    <%= laptop.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= laptop.label :status %>
+    <%= laptop.text_field :status %>
+  </p>
+
+  <p>
+    <%= laptop.label :notes %>
+    <%= laptop.text_area :notes %>
+  </p>
+ 
+  <p>
+    <%= laptop.submit %>
+  </p>
+ 
+<% end %>
+ 
+
+<%= link_to 'Back', desktops_path %>

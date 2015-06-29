@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   
+
   resources :smartphones
   resources :desktops
+  resources :laptops
+  resources :dtus
+  resources :deskphones
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

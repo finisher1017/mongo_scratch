@@ -1,0 +1,2 @@
+module DeskphonesHelper
+end

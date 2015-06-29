@@ -1,0 +1,33 @@
+<h1>LISTING LAPTOPS</h1>
+<p><%= link_to 'New Laptop', new_laptop_path %></p>
+<table>
+  <thead>
+    <tr>
+      <th>Manufacturer</th>
+      <th>Model</th>
+      <th>Jslgtag</th>
+      <th>Location</th>
+      <th>Assignedto</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @laptop.each do |laptop| %>
+      <tr>
+        <td><%= laptop.manufacturer %></td>
+        <td><%= laptop.equipmentModel %></td>
+        <td><%= laptop.jslgTag %></td>
+        <td><%= laptop.location %></td>
+        <td><%= laptop.assigneeName %></td>
+        <td><%= laptop.status %></td>
+        <td><%= link_to 'Show', laptop_path(laptop) %></td>
+        <td><%= link_to 'Edit', edit_laptop_path(laptop) %></td>
+        <td><%= link_to 'Destroy', laptop_path(laptop),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
