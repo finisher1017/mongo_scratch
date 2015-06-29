@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
   
 
+  get 'printers/index'
+
   resources :smartphones
   resources :desktops
   resources :laptops
   resources :dtus
   resources :deskphones
+  resources :printers
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

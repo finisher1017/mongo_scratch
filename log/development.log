@@ -10720,3 +10720,708 @@ Processing by DeskphonesController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Deskphone"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8469ms
   Rendered deskphones/index.html.erb within layouts/application (8.5ms)
 Completed 200 OK in 211ms (Views: 210.0ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 20:57:35 -0700
+Processing by PrintersController#index as HTML
+  Rendered printers/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1287ms (Views: 1193.2ms)
+
+
+Started GET "/printers/new" for 127.0.0.1 at 2015-06-28 20:57:47 -0700
+Processing by PrintersController#new as HTML
+  Rendered printers/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 211ms (Views: 207.2ms)
+
+
+Started POST "/printers" for 127.0.0.1 at 2015-06-28 21:01:13 -0700
+Processing by PrintersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PCFNCExSrd7ysiBMyZBeyBLIojln4QYYbiknUFrWjQX7HQokQeKdZ+LjZ8nMtr4zde5HpRmuknY7YCW4MjP4lg==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"Xerox", "equipmentModel"=>"Phaser 3635", "jslgTag"=>"302872", "serialNumber"=>"358792300", "hostName"=>"XXXXXXXXXXX", "ipAddress"=>"192.168.0.1", "department"=>"Nursing", "location"=>"G4 Nursing Station", "assigneeName"=>"N/A", "status"=>"Deployed", "Notes"=>""}, "commit"=>"Save Printer"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 771.0585ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5590c30a7275620ac10c0000'), "equipmentType"=>"Printer", "manufacturer"=>"Xerox", "equipmentModel"=>"Phaser 3635", "jslgTag"=>"302872", "serialNumber"=>"358792300", "hostName"=>"XXXXXXXXXXX", "ipAddress"=>"192.168.0.1", "department"=>"Nursing", "location"=>"G4 Nursing Station", "assigneeName"=>"N/A", "status"=>"Deployed"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 181.9960ms
+Redirected to http://localhost:3000/printers/5590c30a7275620ac10c0000
+Completed 302 Found in 958ms
+
+
+Started GET "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 21:01:14 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 434.8157ms
+  Rendered printers/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 616ms (Views: 171.3ms)
+
+
+Started GET "/printers/" for 127.0.0.1 at 2015-06-28 21:39:46 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4492ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7798ms
+  Rendered printers/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 191ms (Views: 190.5ms)
+
+
+Started GET "/printers/new" for 127.0.0.1 at 2015-06-28 21:40:26 -0700
+Processing by PrintersController#new as HTML
+  Rendered printers/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 154ms (Views: 153.3ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 21:46:12 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5394ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4821ms
+  Rendered printers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 167ms (Views: 154.6ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 21:46:58 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6147ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.8503ms
+  Rendered printers/show.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 184ms
+
+ActionView::Template::Error (undefined method `serialNumber' for nil:NilClass):
+    20: 
+    21: <p>
+    22:   <strong>Serial Number:</strong>
+    23:   <%= @dprinter.serialNumber %>
+    24: </p>
+    25:  
+    26: <p>
+  app/views/printers/show.html.erb:23:in `_app_views_printers_show_html_erb__3839558495784558724_70114956516820'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (6.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (71.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (2.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (188.8ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.1171ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5099ms
+  Rendered printers/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 229ms (Views: 223.0ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:37 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:38 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:38 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:38 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:38 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-28 21:47:38 -0700
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-28 21:49:24 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4649ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.6372ms
+  Rendered desktops/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 252ms (Views: 250.7ms)
+
+
+Started GET "/desktops/555e509e7275620ac6010000" for 127.0.0.1 at 2015-06-28 21:49:29 -0700
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"555e509e7275620ac6010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('555e509e7275620ac6010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3809ms
+  Rendered desktops/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 165ms (Views: 159.1ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-06-28 22:00:42 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4502ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5194ms
+  Rendered desktops/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 152ms (Views: 151.4ms)
+
+
+Started GET "/printers/" for 127.0.0.1 at 2015-06-28 22:01:13 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0546ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6394ms
+  Rendered printers/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 193ms (Views: 192.6ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000/edit" for 127.0.0.1 at 2015-06-28 22:01:16 -0700
+Processing by PrintersController#edit as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.0388ms
+  Rendered printers/edit.html.erb within layouts/application (93.0ms)
+Completed 500 Internal Server Error in 111ms
+
+ActionView::Template::Error (undefined local variable or method `desktop' for #<#<Class:0x007f89d3056ba8>:0x007f89d0e45208>):
+    66:   </p>
+    67: 
+    68:   <p>
+    69:     <%= desktop.label :status %>
+    70:     <%= desktop.text_field :status %>
+    71:   </p>
+    72: 
+  app/views/printers/edit.html.erb:69:in `block in _app_views_printers_edit_html_erb___3879308078939376506_70114948653000'
+  app/views/printers/edit.html.erb:3:in `_app_views_printers_edit_html_erb___3879308078939376506_70114948653000'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (7.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (48.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.8ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000/edit" for 127.0.0.1 at 2015-06-28 22:01:16 -0700
+Processing by PrintersController#edit as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.3433ms
+  Rendered printers/edit.html.erb within layouts/application (83.0ms)
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (undefined local variable or method `desktop' for #<#<Class:0x007f89d3056ba8>:0x007f89d1a0d400>):
+    66:   </p>
+    67: 
+    68:   <p>
+    69:     <%= desktop.label :status %>
+    70:     <%= desktop.text_field :status %>
+    71:   </p>
+    72: 
+  app/views/printers/edit.html.erb:69:in `block in _app_views_printers_edit_html_erb___3879308078939376506_70114952110180'
+  app/views/printers/edit.html.erb:3:in `_app_views_printers_edit_html_erb___3879308078939376506_70114952110180'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (113.9ms)
+
+
+Started GET "/printers/5590c30a7275620ac10c0000/edit" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+Processing by PrintersController#edit as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6480ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5190ms
+  Rendered printers/edit.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 205ms (Views: 192.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-28 22:01:52 -0700
+
+
+Started PATCH "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 22:03:17 -0700
+Processing by PrintersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0C4561fEL7FrXfdPBlb/pB1mLCRgsclg/XR25T8iaTEXEn7HWnQfCHsMsMoDcB9fekDJuB7+XQ6oPXQNV8ccog==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"Xerox", "equipmentModel"=>"Phaser 3635", "jslgTag"=>"302872", "serialNumber"=>"358792300", "ipAddress"=>"192.168.0.1", "hostName"=>"XXXXXXXXXXX", "department"=>"Nursing", "location"=>"G4 Nursing Station", "assigneeName"=>"None", "status"=>"Deployed", "notes"=>""}, "commit"=>"Save Printer", "id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4025ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3684ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} update={"$set"=>{"assigneeName"=>"None", "notes"=>""}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 821.8846ms
+Redirected to http://localhost:3000/printers/5590c30a7275620ac10c0000
+Completed 302 Found in 906ms
+
+
+Started GET "/printers/5590c30a7275620ac10c0000" for 127.0.0.1 at 2015-06-28 22:03:18 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590c30a7275620ac10c0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590c30a7275620ac10c0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9851ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 166ms (Views: 162.3ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:03:22 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.3438ms
+  Rendered printers/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 184ms (Views: 183.1ms)
+
+
+Started GET "/printers/new" for 127.0.0.1 at 2015-06-28 22:03:28 -0700
+Processing by PrintersController#new as HTML
+  Rendered printers/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 154ms (Views: 153.8ms)
+
+
+Started POST "/printers" for 127.0.0.1 at 2015-06-28 22:03:55 -0700
+Processing by PrintersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sXfL6Odd9V4ZHtACJbEyIkQSZCo+pltnNMKCrkJWLDR2S4zE6u3F5wlPl4cgl9LZIzSBtkDpzwlhi4BGKrNZpw==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Printer"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000'), "equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.6979ms
+Redirected to http://localhost:3000/printers/5590d1bb7275620ac10d0000
+Completed 302 Found in 15ms
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:03:55 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 10.5332ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 184ms (Views: 172.4ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:04:01 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.4408ms
+  Rendered printers/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 317ms (Views: 315.2ms)
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:04:06 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4475ms
+  Rendered printers/show.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 176ms (Views: 174.2ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:04:10 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5688ms
+  Rendered printers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 216ms (Views: 215.4ms)
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000/edit" for 127.0.0.1 at 2015-06-28 22:04:12 -0700
+Processing by PrintersController#edit as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0632ms
+  Rendered printers/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 200ms (Views: 190.9ms)
+
+
+Started PATCH "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:04:25 -0700
+Processing by PrintersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FA4KPY8eePHfrtx2++s6lj9IS5RAJU1fkeAWhfvbevPTMk0Rgq5ISM//m/P+zdptWG6uCD5q2THEqRRtkz4PYA==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"302734", "serialNumber"=>"", "ipAddress"=>"", "hostName"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "notes"=>""}, "commit"=>"Save Printer", "id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.2590ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} update={"$set"=>{"jslgTag"=>"302734", "notes"=>""}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 137.8441ms
+Redirected to http://localhost:3000/printers/5590d1bb7275620ac10d0000
+Completed 302 Found in 149ms
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:04:25 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.3449ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 184ms (Views: 174.2ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:04:28 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8125ms
+  Rendered printers/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 145ms (Views: 141.9ms)
+
+
+Started DELETE "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:04:34 -0700
+Processing by PrintersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HjfTCVrd52vq4wqyODHJmkkZvWQMy/K/9zWGeBU6gTnZC5QlV23X0vqyTTc9FylhLj9Y+HKEZtGifISQfd/0qg==", "id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1944ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 20.2972ms
+Redirected to http://localhost:3000/printers/5590d1bb7275620ac10d0000
+Completed 302 Found in 29ms
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:04:34 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.4909ms
+Completed 404 Not Found in 6ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5590d1bb7275620ac10d0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5590d1bb7275620ac10d0000 ... (1 total) and the following ids were not found: 5590d1bb7275620ac10d0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printers_controller.rb:7:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (29.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (57.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (4.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (109.4ms)
+
+
+Started DELETE "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:08:45 -0700
+Processing by PrintersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HjfTCVrd52vq4wqyODHJmkkZvWQMy/K/9zWGeBU6gTnZC5QlV23X0vqyTTc9FylhLj9Y+HKEZtGifISQfd/0qg==", "id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4956ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5297ms
+Completed 404 Not Found in 42ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5590d1bb7275620ac10d0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5590d1bb7275620ac10d0000 ... (1 total) and the following ids were not found: 5590d1bb7275620ac10d0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printers_controller.rb:35:in `destroy'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (4.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (47.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (97.5ms)
+
+
+Started DELETE "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:09:55 -0700
+Processing by PrintersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HjfTCVrd52vq4wqyODHJmkkZvWQMy/K/9zWGeBU6gTnZC5QlV23X0vqyTTc9FylhLj9Y+HKEZtGifISQfd/0qg==", "id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4204ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3131ms
+Completed 404 Not Found in 30ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5590d1bb7275620ac10d0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5590d1bb7275620ac10d0000 ... (1 total) and the following ids were not found: 5590d1bb7275620ac10d0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printers_controller.rb:35:in `destroy'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (5.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (92.2ms)
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:16:42 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7537ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5832ms
+Completed 404 Not Found in 5ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5590d1bb7275620ac10d0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5590d1bb7275620ac10d0000 ... (1 total) and the following ids were not found: 5590d1bb7275620ac10d0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printers_controller.rb:7:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (131.7ms)
+
+
+Started GET "/printers/5590d1bb7275620ac10d0000" for 127.0.0.1 at 2015-06-28 22:16:42 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d1bb7275620ac10d0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d1bb7275620ac10d0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.3063ms
+Completed 404 Not Found in 8ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5590d1bb7275620ac10d0000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5590d1bb7275620ac10d0000 ... (1 total) and the following ids were not found: 5590d1bb7275620ac10d0000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printers_controller.rb:7:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (3.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (100.9ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:18:43 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 10.2487ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6641ms
+  Rendered printers/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 294ms (Views: 291.8ms)
+
+
+Started GET "/printers/new" for 127.0.0.1 at 2015-06-28 22:18:56 -0700
+Processing by PrintersController#new as HTML
+  Rendered printers/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 195ms (Views: 194.4ms)
+
+
+Started POST "/printers" for 127.0.0.1 at 2015-06-28 22:19:09 -0700
+Processing by PrintersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v0Vq01l6Rs1dO4bR8V06v0qETNUjuPpPiCQBbQTScuV4eS3/VMp2dE1qwVT0e9pELaKpSV33biHdbQOFbDcHdg==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Printer"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5590d54d7275620ac10e0000'), "equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1.2662ms
+Redirected to http://localhost:3000/printers/5590d54d7275620ac10e0000
+Completed 302 Found in 6ms
+
+
+Started GET "/printers/5590d54d7275620ac10e0000" for 127.0.0.1 at 2015-06-28 22:19:10 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d54d7275620ac10e0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d54d7275620ac10e0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.2277ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 189ms (Views: 182.0ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:19:13 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1751ms
+  Rendered printers/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 180ms (Views: 176.4ms)
+
+
+Started DELETE "/printers/5590d54d7275620ac10e0000" for 127.0.0.1 at 2015-06-28 22:19:17 -0700
+Processing by PrintersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zTrw3GaeGRKw7BqdZJx6AQtWIZn1k9uBXVKpc5Ce2JQKBrfway4pq6C9XRhhupr6bHDEBYvcT+8IG6ub+HutBw==", "id"=>"5590d54d7275620ac10e0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d54d7275620ac10e0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6471ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5590d54d7275620ac10e0000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 3.7609ms
+Redirected to http://localhost:3000/printers
+Completed 302 Found in 13ms
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:19:17 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6177ms
+  Rendered printers/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 180ms (Views: 178.7ms)
+
+
+Started GET "/printers/new" for 127.0.0.1 at 2015-06-28 22:19:29 -0700
+Processing by PrintersController#new as HTML
+  Rendered printers/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 139ms (Views: 138.4ms)
+
+
+Started POST "/printers" for 127.0.0.1 at 2015-06-28 22:19:41 -0700
+Processing by PrintersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lIcFMml0G339otQ1xmiL8KF/T65aKQhqGQbtFwJBTSFTu0IeZMQrxO3zk7DDTmsLxlmqMiRmnARMT+//aqQ4sg==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "Notes"=>""}, "commit"=>"Save Printer"}
+Unpermitted parameter: Notes
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5590d56d7275620ac10f0000'), "equipmentType"=>"Printer", "manufacturer"=>"HP", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "hostName"=>"", "ipAddress"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>""}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.7283ms
+Redirected to http://localhost:3000/printers/5590d56d7275620ac10f0000
+Completed 302 Found in 5ms
+
+
+Started GET "/printers/5590d56d7275620ac10f0000" for 127.0.0.1 at 2015-06-28 22:19:41 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d56d7275620ac10f0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d56d7275620ac10f0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.8976ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 220ms (Views: 214.8ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:19:44 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.7624ms
+  Rendered printers/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 177ms (Views: 176.1ms)
+
+
+Started GET "/printers/5590d56d7275620ac10f0000/edit" for 127.0.0.1 at 2015-06-28 22:19:46 -0700
+Processing by PrintersController#edit as HTML
+  Parameters: {"id"=>"5590d56d7275620ac10f0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d56d7275620ac10f0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5944ms
+  Rendered printers/edit.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 204ms (Views: 202.1ms)
+
+
+Started PATCH "/printers/5590d56d7275620ac10f0000" for 127.0.0.1 at 2015-06-28 22:19:53 -0700
+Processing by PrintersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wtAh3MaLCJtjTU+a0L8wesZhcfvqdn9xhU8Malkbe40F7Gbwyzs4InMcCB/VmdCBoUeUZ5Q56x/QBg6CMf4OHg==", "printer"=>{"equipmentType"=>"Printer", "manufacturer"=>"Xerox", "equipmentModel"=>"Test", "jslgTag"=>"", "serialNumber"=>"", "ipAddress"=>"", "hostName"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "notes"=>""}, "commit"=>"Save Printer", "id"=>"5590d56d7275620ac10f0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d56d7275620ac10f0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.4012ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5590d56d7275620ac10f0000')} update={"$set"=>{"manufacturer"=>"Xerox", "notes"=>""}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 2.5660ms
+Redirected to http://localhost:3000/printers/5590d56d7275620ac10f0000
+Completed 302 Found in 10ms
+
+
+Started GET "/printers/5590d56d7275620ac10f0000" for 127.0.0.1 at 2015-06-28 22:19:53 -0700
+Processing by PrintersController#show as HTML
+  Parameters: {"id"=>"5590d56d7275620ac10f0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer", "_id"=>BSON::ObjectId('5590d56d7275620ac10f0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.4734ms
+  Rendered printers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 199ms (Views: 189.3ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2015-06-28 22:19:57 -0700
+Processing by PrintersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 9.0894ms
+  Rendered printers/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 137ms (Views: 136.5ms)

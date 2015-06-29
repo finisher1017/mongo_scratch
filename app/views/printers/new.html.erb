@@ -1,0 +1,68 @@
+<h1>NEW DESKPHONE</h1>
+
+<%= form_for :printer, url: printers_path do |printer| %>
+  <p>
+    <%= printer.label :Type %>
+    <%= printer.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= printer.label :manufacturer %>
+    <%= printer.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= printer.label :equipmentModel %>
+    <%= printer.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= printer.label :jslgTag %>
+    <%= printer.text_field :jslgTag %>
+  </p>
+
+  <p>
+    <%= printer.label :serialNumber %>
+    <%= printer.text_field :serialNumber %>
+  </p>
+
+  <p>
+    <%= printer.label :hostName %>
+    <%= printer.text_field :hostName %>
+  </p>
+
+
+  <p>
+    <%= printer.label :ipAddress %>
+    <%= printer.text_field :ipAddress %>
+  </p>
+
+  <p>
+    <%= printer.label :department %>
+    <%= printer.text_field :department %>
+  </p>
+
+  <p>
+    <%= printer.label :location %>
+    <%= printer.text_field :location %>
+  </p>
+
+  <p>
+    <%= printer.label :assigneeName %>
+    <%= printer.text_field :assigneeName %>
+  </p>
+
+  <p>
+    <%= printer.label :status %>
+    <%= printer.text_field :status %>
+  </p>
+
+  <p>
+    <%= printer.label :Notes %>
+    <%= printer.text_area :Notes %>
+  </p>
+ 
+  <p>
+    <%= printer.submit %>
+  </p>
+<% end %>
