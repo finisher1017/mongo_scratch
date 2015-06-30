@@ -11425,3 +11425,956 @@ Processing by PrintersController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Printer"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 9.0894ms
   Rendered printers/index.html.erb within layouts/application (16.6ms)
 Completed 200 OK in 137ms (Views: 136.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-29 14:52:27 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (604.1ms)
+Completed 200 OK in 25497ms (Views: 22932.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-29 14:57:00 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 309ms (Views: 308.6ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 234ms (Views: 233.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 14:57:21 -0700
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 15:38:43 -0700
+Processing by TonersController#index as HTML
+  Rendered toners/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 918ms (Views: 916.7ms)
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:38:44 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:38:44 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:38:44 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:38:44 -0700
+
+
+Started GET "/toners/new" for 127.0.0.1 at 2015-06-29 15:38:48 -0700
+Processing by TonersController#new as HTML
+  Rendered toners/new.html.erb within layouts/application (342.3ms)
+Completed 200 OK in 578ms (Views: 578.0ms)
+
+
+Started GET "/toners/new" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+Processing by TonersController#new as HTML
+  Rendered toners/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 220ms (Views: 219.9ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:44 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 15:39:45 -0700
+
+
+Started POST "/toners" for 127.0.0.1 at 2015-06-29 15:48:54 -0700
+Processing by TonersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m4dzEhq6XXLPbo4WDALT4EsAk8HIO7mg1nrhHR2jOmkXHFa/HjR6t1fp0aoRrLutsHwZgslSEoQ2Z7AAmzahJg==", "toner"=>{"equipmentType"=>"Toner", "manufacturer"=>"Xerox ", "equipmentModel"=>"WorkCentre 7525", "color"=>"Black", "replacementId"=>"006R01509", "quantity"=>"9"}, "commit"=>"Save Toner"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1414.7398ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5591cb587275620b8b000000'), "equipmentType"=>"Toner", "manufacturer"=>"Xerox ", "equipmentModel"=>"WorkCentre 7525", "color"=>"Black", "replacementId"=>"006R01509", "quantity"=>"9"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 544.7449ms
+Redirected to http://localhost:3000/toners/5591cb587275620b8b000000
+Completed 302 Found in 2109ms
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 15:48:57 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"TonerToner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 314.0740ms
+Completed 404 Not Found in 323ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5591cb587275620b8b000000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5591cb587275620b8b000000 ... (1 total) and the following ids were not found: 5591cb587275620b8b000000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/toners_controller.rb:7:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (97.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (249.1ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 15:49:31 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4225ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4750ms
+  Rendered toners/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 288ms (Views: 242.2ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 15:49:32 -0700
+
+
+Started GET "/toners/" for 127.0.0.1 at 2015-06-29 16:17:05 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4620ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.5617ms
+  Rendered toners/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 330ms (Views: 329.3ms)
+
+
+Started GET "/toners/" for 127.0.0.1 at 2015-06-29 16:18:05 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.2473ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6850ms
+  Rendered toners/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 253ms (Views: 251.9ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 16:18:06 -0700
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 16:21:49 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3934ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3689ms
+  Rendered toners/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `manufacturerTag' for nil:NilClass):
+    15:  
+    16: <p>
+    17:   <strong>Quantity:</strong>
+    18:   <%= @desktop.manufacturerTag %>
+    19: </p>
+    20:  
+    21: <%= link_to 'Back', toners_path %>
+  app/views/toners/show.html.erb:18:in `_app_views_toners_show_html_erb__754023496680887815_39750260'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (87.2ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 16:21:49 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6637ms
+  Rendered toners/show.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `manufacturerTag' for nil:NilClass):
+    15:  
+    16: <p>
+    17:   <strong>Quantity:</strong>
+    18:   <%= @desktop.manufacturerTag %>
+    19: </p>
+    20:  
+    21: <%= link_to 'Back', toners_path %>
+  app/views/toners/show.html.erb:18:in `_app_views_toners_show_html_erb__754023496680887815_69938207478320'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (5.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (104.0ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.7855ms
+  Rendered toners/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 240ms (Views: 236.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:04 -0700
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 16:22:31 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5634ms
+  Rendered toners/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 258ms (Views: 255.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:22:32 -0700
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6125ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4970ms
+  Rendered toners/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 229ms (Views: 224.0ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:44 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:45 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:45 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:45 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:45 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-29 16:58:45 -0700
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:00:22 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3335ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5387ms
+  Rendered toners/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 148ms (Views: 147.7ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 17:00:27 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9952ms
+  Rendered toners/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 162ms (Views: 159.3ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:05:43 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4855ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 50.5119ms
+  Rendered toners/index.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 205ms (Views: 202.8ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000/edit" for 127.0.0.1 at 2015-06-29 17:05:45 -0700
+Processing by TonersController#edit as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.1336ms
+  Rendered toners/edit.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 194ms (Views: 190.1ms)
+
+
+Started PATCH "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 17:05:54 -0700
+Processing by TonersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BWh4CCspE+C6ABa8cvfyVvsQxD6aA8iKewDtyZ6cg8mJ812lL6c0JSKHSQBvWZobAGxOfZtqY66bHbzUGAkYhg==", "toner"=>{"manufacturer"=>"Xerox ", "equipmentModel"=>"WorkCentre 7525", "color"=>"Black", "replacementId"=>"006R01509", "quantity"=>"10"}, "commit"=>"Save Toner", "id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.9939ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5591cb587275620b8b000000')} update={"$set"=>{"quantity"=>"10"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 456.2899ms
+Redirected to http://localhost:3000/toners/5591cb587275620b8b000000
+Completed 302 Found in 463ms
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 17:05:55 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4753ms
+  Rendered toners/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 186ms (Views: 176.3ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:05:57 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.0501ms
+  Rendered toners/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 156ms (Views: 155.4ms)
+
+
+Started GET "/toners/5591cb587275620b8b000000/edit" for 127.0.0.1 at 2015-06-29 17:05:59 -0700
+Processing by TonersController#edit as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8239ms
+  Rendered toners/edit.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 170ms (Views: 166.7ms)
+
+
+Started PATCH "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 17:06:04 -0700
+Processing by TonersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vFC8DNWQSsCZ8DBoGnXPZO44CdfrWqBmrrwJhEZx/Fgwy5mh0R5tBQF3b9QH26cpFUSDlOozC0JOoViZwORnFw==", "toner"=>{"manufacturer"=>"Xerox ", "equipmentModel"=>"WorkCentre 7525", "color"=>"Black", "replacementId"=>"006R01509", "quantity"=>"9"}, "commit"=>"Save Toner", "id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0814ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5591cb587275620b8b000000')} update={"$set"=>{"quantity"=>"9"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.4952ms
+Redirected to http://localhost:3000/toners/5591cb587275620b8b000000
+Completed 302 Found in 17ms
+
+
+Started GET "/toners/5591cb587275620b8b000000" for 127.0.0.1 at 2015-06-29 17:06:04 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591cb587275620b8b000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591cb587275620b8b000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.0633ms
+  Rendered toners/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 236ms (Views: 225.8ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:06:07 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4734ms
+  Rendered toners/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 151ms (Views: 150.9ms)
+
+
+Started GET "/toners/new" for 127.0.0.1 at 2015-06-29 17:06:09 -0700
+Processing by TonersController#new as HTML
+  Rendered toners/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 184ms (Views: 183.8ms)
+
+
+Started POST "/toners" for 127.0.0.1 at 2015-06-29 17:07:57 -0700
+Processing by TonersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJKv1JwsHxnFt65FZsqnFBBK5/ZzzudG2VWd/Me1OyCQCYp5mKI43F0w8fl7ZM9Z6zZttXKnTGI5SMzhQSCgbw==", "toner"=>{"equipmentType"=>"Toner", "manufacturer"=>"HP", "equipmentModel"=>"LaserJet 5200", "color"=>"Black", "replacementId"=>"Q75-16A", "quantity"=>"2"}, "commit"=>"Save Toner"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5034ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5591dddd7275620b8b010000'), "equipmentType"=>"Toner", "manufacturer"=>"HP", "equipmentModel"=>"LaserJet 5200", "color"=>"Black", "replacementId"=>"Q75-16A", "quantity"=>"2"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.4019ms
+Redirected to http://localhost:3000/toners/5591dddd7275620b8b010000
+Completed 302 Found in 12ms
+
+
+Started GET "/toners/5591dddd7275620b8b010000" for 127.0.0.1 at 2015-06-29 17:07:57 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.0908ms
+  Rendered toners/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 243ms (Views: 231.6ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:07:59 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 14.4143ms
+  Rendered toners/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 167ms (Views: 166.1ms)
+
+
+Started GET "/toners/5591dddd7275620b8b010000" for 127.0.0.1 at 2015-06-29 17:08:05 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4460ms
+  Rendered toners/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 194ms (Views: 192.9ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:08:07 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6299ms
+  Rendered toners/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 219ms (Views: 217.1ms)
+
+
+Started GET "/toners/5591dddd7275620b8b010000/edit" for 127.0.0.1 at 2015-06-29 17:08:09 -0700
+Processing by TonersController#edit as HTML
+  Parameters: {"id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 8.2363ms
+  Rendered toners/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 258ms (Views: 246.1ms)
+
+
+Started PATCH "/toners/5591dddd7275620b8b010000" for 127.0.0.1 at 2015-06-29 17:08:13 -0700
+Processing by TonersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RheCpx7iRHOl8Zk+1WKUzKiUUWbDFOgf8JI8w6TiC/bKjKcKGmxjtj12xoLIzPyBU+jbJcJ9QzsQj23eIneQuQ==", "toner"=>{"manufacturer"=>"HP", "equipmentModel"=>"LaserJet 5200", "color"=>"Black", "replacementId"=>"Q75-16A", "quantity"=>"1"}, "commit"=>"Save Toner", "id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4999ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} update={"$set"=>{"quantity"=>"1"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 6.2807ms
+Redirected to http://localhost:3000/toners/5591dddd7275620b8b010000
+Completed 302 Found in 13ms
+
+
+Started GET "/toners/5591dddd7275620b8b010000" for 127.0.0.1 at 2015-06-29 17:08:13 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8942ms
+  Rendered toners/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 230ms (Views: 222.1ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:08:16 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.1854ms
+  Rendered toners/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 145ms (Views: 145.3ms)
+
+
+Started DELETE "/toners/5591dddd7275620b8b010000" for 127.0.0.1 at 2015-06-29 17:08:20 -0700
+Processing by TonersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Q8pxeiA9GmXF/2cIr/b/a/wdMQdmfMmzqGaDNm7F9PjPUVTXJLM9oF14OLSyWJcmB2G7RGcVYpdIe9Ir6FBvtw==", "id"=>"5591dddd7275620b8b010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4747ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5591dddd7275620b8b010000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 28.8706ms
+Redirected to http://localhost:3000/toners
+Completed 302 Found in 32ms
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-29 17:08:20 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.4060ms
+  Rendered toners/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 241ms (Views: 240.3ms)

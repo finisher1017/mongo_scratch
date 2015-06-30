@@ -1,0 +1,37 @@
+<h1>NEW TONER</h1>
+
+<%= form_for :toner, url: toners_path do |toner| %>
+  <p>
+    <%= toner.label :Type %>
+    <%= toner.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= toner.label :manufacturer %>
+    <%= toner.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= toner.label :equipmentModel %>
+    <%= toner.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= toner.label :color %>
+    <%= toner.text_field :color %>
+  </p>
+
+  <p>
+    <%= toner.label :TonerID %>
+    <%= toner.text_field :replacementId %>
+  </p>
+
+  <p>
+    <%= toner.label :Quantity %>
+    <%= toner.text_field :quantity %>
+  </p>
+ 
+  <p>
+    <%= toner.submit %>
+  </p>
+<% end %>

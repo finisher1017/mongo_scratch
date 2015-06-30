@@ -1,0 +1,2 @@
+module WastecontainersHelper
+end

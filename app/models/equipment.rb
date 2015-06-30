@@ -22,6 +22,8 @@ class Equipment
   field :meid, type: String
   field :mrcTag, type: String
   field :ipAddress, type: String
+  field :color, type: String
+  field :replacementId, type: String
   field :blackId, type: String
   field :magentaId, type: String
   field :cyanId, type: String

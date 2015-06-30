@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   
 
+  get 'printerdrums/index'
+
+  get 'wastecontainers/index'
+
+  get 'toners/index'
+
   get 'printers/index'
 
   resources :smartphones
@@ -9,6 +15,9 @@ Rails.application.routes.draw do
   resources :dtus
   resources :deskphones
   resources :printers
+  resources :toners
+  resources :containers
+  resources :drums
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

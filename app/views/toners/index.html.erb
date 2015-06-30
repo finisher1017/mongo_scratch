@@ -1,0 +1,29 @@
+<h1>Listing Toner</h1>
+ <p><%= link_to 'New Toner', new_toner_path %></p>
+<table>
+  <tr>
+    <th>Manufacturer</th>
+    <th>Model</th>
+    <th>Color</th>
+    <th>ID</th>
+    <th>Quantity</th>
+    <th colspan="3"></th>
+  </tr>
+
+<tbody> 
+  <% @toner.each do |toner| %>
+    <tr>
+      <td><%= toner.manufacturer %></td>
+      <td><%= toner.equipmentModel %></td>
+      <td><%= toner.color %></td>
+      <td><%= toner.replacementId %></td>
+        <td><%= toner.quantity %></td>
+        <td><%= link_to 'Show', toner_path(toner) %></td>
+        <td><%= link_to 'Edit', edit_toner_path(toner) %></td>
+        <td><%= link_to 'Destroy', toner_path(toner),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+<tbody>
+</table>
