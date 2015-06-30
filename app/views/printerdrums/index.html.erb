@@ -1,2 +1,28 @@
-<h1>Printerdrums#index</h1>
-<p>Find me in app/views/printerdrums/index.html.erb</p>
+<h1>Listing Printer Drums</h1>
+ <p><%= link_to 'New Printer Drum', new_printerdrum_path %></p>
+<table>
+  <tr>
+    <th>Manufacturer</th>
+    <th>Model</th>
+    <th>ID</th>
+    <th>Quantity</th>
+    <th colspan="3"></th>
+  </tr>
+
+<tbody> 
+  <% @printerdrum.each do |drum| %>
+    <tr>
+      <td><%= drum.manufacturer %></td>
+      <td><%= drum.equipmentModel %></td>
+      <td><%= drum.color %></td>
+      <td><%= drum.replacementId %></td>
+        <td><%= drum.quantity %></td>
+        <td><%= link_to 'Show', printerdrum_path(drum) %></td>
+        <td><%= link_to 'Edit', edit_printerdrum_path(drum) %></td>
+        <td><%= link_to 'Destroy', printerdrum_path(drum),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+<tbody>
+</table>

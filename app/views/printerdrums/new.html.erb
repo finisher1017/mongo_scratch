@@ -1,0 +1,32 @@
+<h1>NEW WASTE CONTAINER</h1>
+
+<%= form_for :printerdrum, url: printerdrums_path do |drum| %>
+  <p>
+    <%= drum.label :Type %>
+    <%= drum.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= drum.label :manufacturer %>
+    <%= drum.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= drum.label :equipmentModel %>
+    <%= drum.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= drum.label :DrumID %>
+    <%= drum.text_field :drumId %>
+  </p>
+
+  <p>
+    <%= drum.label :Quantity %>
+    <%= drum.text_field :quantity %>
+  </p>
+ 
+  <p>
+    <%= drum.submit %>
+  </p>
+<% end %>

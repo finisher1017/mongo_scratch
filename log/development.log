@@ -12378,3 +12378,2340 @@ Processing by TonersController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.4060ms
   Rendered toners/index.html.erb within layouts/application (8.0ms)
 Completed 200 OK in 241ms (Views: 240.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-30 13:29:23 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 16759ms (Views: 15436.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 381ms (Views: 379.8ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:46 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 13:37:47 -0700
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-06-30 13:37:49 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1263.4142ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 530.9227ms
+  Rendered toners/index.html.erb within layouts/application (1799.3ms)
+Completed 200 OK in 2001ms (Views: 1999.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-30 14:05:46 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (620.5ms)
+Completed 500 Internal Server Error in 669ms
+
+ActionView::Template::Error (undefined local variable or method `wastecontainers_path' for #<#<Class:0x00000005bb2df8>:0x00000005b5e1e0>):
+     7: <%= link_to 'Deskphones', deskphones_path %><br>
+     8: <%= link_to 'Toner', toners_path %><br>
+     9: <%= link_to 'Printer Drums', drums_path %><br>
+    10: <%= link_to 'Waste Containers', wastecontainers_path %><br>
+  app/views/main/index.html.erb:10:in `_app_views_main_index_html_erb___3345493744934741406_47857800'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (99.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (225.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 304ms (Views: 303.4ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:54 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:55 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:55 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:55 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:06:55 -0700
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:06:59 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (76.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (192.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (69.6ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:07:00 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (4.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (54.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (98.7ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:07:50 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (155.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (55.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.9ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:07:55 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (4.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (94.9ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:07:55 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (174.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (86.5ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:08:33 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (154.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (48.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (98.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 269ms (Views: 268.4ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:08:39 -0700
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:08:42 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (4.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (85.4ms)
+
+
+Started GET "/drums" for 127.0.0.1 at 2015-06-30 14:08:42 -0700
+
+ActionController::RoutingError (uninitialized constant DrumsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.1) lib/rack/etag.rb:24:in `call'
+  rack (1.6.1) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.1) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.1) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (18.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (186.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (5.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (45.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (87.4ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:09:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/printerdrums"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (131.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (5.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (44.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (98.6ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:10:22 -0700
+Processing by PrinterdrumsController#index as HTML
+  Rendered printerdrums/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 368ms (Views: 332.3ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:22 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:22 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:10:23 -0700
+
+
+Started GET "/printerdrums/new" for 127.0.0.1 at 2015-06-30 14:12:16 -0700
+Processing by PrinterdrumsController#new as HTML
+  Rendered printerdrums/new.html.erb within layouts/application (40.8ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined local variable or method `drums_path' for #<#<Class:0x007f8f06201970>:0x007f8f061f99c8>):
+    1: <h1>NEW WASTE CONTAINER</h1>
+    2: 
+    3: <%= form_for :drum, url: drums_path do |drum| %>
+    4:   <p>
+    5:     <%= drum.label :Type %>
+    6:     <%= drum.text_field :equipmentType %>
+  app/views/printerdrums/new.html.erb:3:in `_app_views_printerdrums_new_html_erb___787313054599810449_70126129889820'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (40.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (44.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (103.4ms)
+
+
+Started GET "/printerdrums/new" for 127.0.0.1 at 2015-06-30 14:12:35 -0700
+Processing by PrinterdrumsController#new as HTML
+  Rendered printerdrums/new.html.erb within layouts/application (32.3ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined local variable or method `drums_path' for #<#<Class:0x007f8f06201970>:0x007f8f06130b18>):
+    1: <h1>NEW WASTE CONTAINER</h1>
+    2: 
+    3: <%= form_for :printerdrum, url: drums_path do |drum| %>
+    4:   <p>
+    5:     <%= drum.label :Type %>
+    6:     <%= drum.text_field :equipmentType %>
+  app/views/printerdrums/new.html.erb:3:in `_app_views_printerdrums_new_html_erb___787313054599810449_70126129134680'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (84.7ms)
+
+
+Started GET "/printerdrums/new" for 127.0.0.1 at 2015-06-30 14:12:54 -0700
+Processing by PrinterdrumsController#new as HTML
+  Rendered printerdrums/new.html.erb within layouts/application (279.0ms)
+Completed 200 OK in 523ms (Views: 522.6ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:56 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:12:57 -0700
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:15:17 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8MjLP3fljRfwNCRN4eSUtfhpoca/je7O9hxcHzFFzsZRiBiVK60RmjJblvmv4ZEJt1AWleQvsZ+FJ2CX+L9utg==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"0"}, "commit"=>"Save Printerdrum"}
+Completed 400 Bad Request in 26ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: drum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:18:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (126.2ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:17:39 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8MjLP3fljRfwNCRN4eSUtfhpoca/je7O9hxcHzFFzsZRiBiVK60RmjJblvmv4ZEJt1AWleQvsZ+FJ2CX+L9utg==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"0"}, "commit"=>"Save Printerdrum"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1936ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('559307737275620ada000000'), "equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"0"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 336.4848ms
+Completed 500 Internal Server Error in 405ms
+
+NoMethodError (undefined method `drum_path' for #<PrinterdrumsController:0x007f8f06353be8>):
+  app/controllers/printerdrums_controller.rb:21:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (45.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (107.8ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:18:08 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8MjLP3fljRfwNCRN4eSUtfhpoca/je7O9hxcHzFFzsZRiBiVK60RmjJblvmv4ZEJt1AWleQvsZ+FJ2CX+L9utg==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"0"}, "commit"=>"Save Printerdrum"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('559307917275620ada010000'), "equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"0"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 4.6043ms
+Redirected to http://localhost:3000/printerdrums/559307917275620ada010000
+Completed 302 Found in 38ms
+
+
+Started GET "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 235.2564ms
+  Rendered printerdrums/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 495ms (Views: 250.8ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:09 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:18:10 -0700
+
+
+Started GET "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.3549ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4381ms
+  Rendered printerdrums/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 298ms (Views: 293.2ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:16 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:22:17 -0700
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:22:20 -0700
+Processing by PrinterdrumsController#index as HTML
+  Rendered printerdrums/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 147ms (Views: 146.2ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:26:57 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4313ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5686ms
+  Rendered printerdrums/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 282ms (Views: 281.2ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:26:58 -0700
+
+
+Started GET "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:27:08 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.6580ms
+  Rendered printerdrums/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 190ms (Views: 179.3ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:27:12 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4512ms
+  Rendered printerdrums/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 145ms (Views: 143.0ms)
+
+
+Started GET "/printerdrums/559307917275620ada010000/edit" for 127.0.0.1 at 2015-06-30 14:31:49 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9203ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4091ms
+  Rendered printerdrums/edit.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 195ms (Views: 187.4ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000/edit" for 127.0.0.1 at 2015-06-30 14:32:47 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4945ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7803ms
+  Rendered printerdrums/edit.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 193ms (Views: 180.5ms)
+
+
+Started GET "/printerdrums/559307917275620ada010000/edit" for 127.0.0.1 at 2015-06-30 14:33:13 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.6117ms
+  Rendered printerdrums/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 182ms (Views: 170.2ms)
+
+
+Started PATCH "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:33:18 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86NZRpZ7ezBID+ebZ6bOfl/pARcZ+eqPpGP/NQ20q+dS44rsyjPnvYpgVS8po8vCENC2REJbtd7XWMO9xE4Llw==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"3"}, "commit"=>"Save Drum", "id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6811ms
+Completed 400 Bad Request in 4ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: printerdrum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:27:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (35.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (100.6ms)
+
+
+Started PATCH "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:34:59 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86NZRpZ7ezBID+ebZ6bOfl/pARcZ+eqPpGP/NQ20q+dS44rsyjPnvYpgVS8po8vCENC2REJbtd7XWMO9xE4Llw==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"3"}, "commit"=>"Save Drum", "id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5142ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7308ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('559307917275620ada010000')} update={"$set"=>{"quantity"=>"3"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 130.0892ms
+Completed 500 Internal Server Error in 184ms
+
+NoMethodError (undefined method `drum_path' for #<PrinterdrumsController:0x007f8f055ca2b0>):
+  app/controllers/printerdrums_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (71.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (9.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (122.9ms)
+
+
+Started PATCH "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:35:35 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86NZRpZ7ezBID+ebZ6bOfl/pARcZ+eqPpGP/NQ20q+dS44rsyjPnvYpgVS8po8vCENC2REJbtd7XWMO9xE4Llw==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"3"}, "commit"=>"Save Drum", "id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6722ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6101ms
+Redirected to http://localhost:3000/printerdrums/559307917275620ada010000
+Completed 302 Found in 39ms
+
+
+Started GET "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.2438ms
+  Rendered printerdrums/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 407ms (Views: 403.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:36 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:35:37 -0700
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:35:40 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.5480ms
+  Rendered printerdrums/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 197ms (Views: 196.4ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000/edit" for 127.0.0.1 at 2015-06-30 14:35:44 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.7327ms
+  Rendered printerdrums/edit.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 209ms (Views: 201.9ms)
+
+
+Started PATCH "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:35:48 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fth7CO+NJrVGbQv9xl9HGdb7Dh2chw3oK4RzRxqvE5TfmKiis8W6OIQCuUmIWkKlmcK5TsclUrlYv0/P01Wz5A==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"1"}, "commit"=>"Save Drum", "id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.1583ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('559307737275620ada000000')} update={"$set"=>{"quantity"=>"1"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1.0850ms
+Redirected to http://localhost:3000/printerdrums/559307737275620ada000000
+Completed 302 Found in 13ms
+
+
+Started GET "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:35:48 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.9790ms
+  Rendered printerdrums/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 281ms (Views: 274.0ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:35:51 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4043ms
+  Rendered printerdrums/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 167ms (Views: 166.3ms)
+
+
+Started DELETE "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:35:55 -0700
+Processing by PrinterdrumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nldDitwgcN15pYSYDF7Bo2Rvc8EcYKCIjYx7j7iYgAE/F5AggGjsULvKNixCW8QfK1bEkkfC/9n+t0cHcWIgcQ==", "id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.6332ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 35.3135ms
+Completed 500 Internal Server Error in 58ms
+
+NameError (undefined local variable or method `drums_path' for #<PrinterdrumsController:0x007f8f047a09a0>):
+  app/controllers/printerdrums_controller.rb:38:in `destroy'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (38.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (97.3ms)
+
+
+Started DELETE "/printerdrums/559307917275620ada010000" for 127.0.0.1 at 2015-06-30 14:36:20 -0700
+Processing by PrinterdrumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nldDitwgcN15pYSYDF7Bo2Rvc8EcYKCIjYx7j7iYgAE/F5AggGjsULvKNixCW8QfK1bEkkfC/9n+t0cHcWIgcQ==", "id"=>"559307917275620ada010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307917275620ada010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 10.8695ms
+Completed 404 Not Found in 31ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 559307917275620ada010000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 559307917275620ada010000 ... (1 total) and the following ids were not found: 559307917275620ada010000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printerdrums_controller.rb:35:in `destroy'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (6.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (5.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (53.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (95.5ms)
+
+
+Started GET "/printerdrums/" for 127.0.0.1 at 2015-06-30 14:36:29 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.9671ms
+  Rendered printerdrums/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 293ms (Views: 292.6ms)
+
+
+Started GET "/printerdrums/new" for 127.0.0.1 at 2015-06-30 14:36:36 -0700
+Processing by PrinterdrumsController#new as HTML
+  Rendered printerdrums/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 217ms (Views: 216.7ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:39:48 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QZFgjBnlB5DUXoZGon7gmDfRtVkiFDpjAq4pPYGf3I3g0bMmRa2bHRYxNPLse+UkeOgCCnm2ZTJxlRW1SGV8/Q==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Printerdrum"}
+Completed 400 Bad Request in 2ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: drum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:18:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (50.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (99.4ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:40:42 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QZFgjBnlB5DUXoZGon7gmDfRtVkiFDpjAq4pPYGf3I3g0bMmRa2bHRYxNPLse+UkeOgCCnm2ZTJxlRW1SGV8/Q==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Printerdrum"}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: drum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:18:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (100.7ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:40:56 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QZFgjBnlB5DUXoZGon7gmDfRtVkiFDpjAq4pPYGf3I3g0bMmRa2bHRYxNPLse+UkeOgCCnm2ZTJxlRW1SGV8/Q==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Printerdrum"}
+Completed 400 Bad Request in 1ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: drum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:18:in `create'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (88.1ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:49:21 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QZFgjBnlB5DUXoZGon7gmDfRtVkiFDpjAq4pPYGf3I3g0bMmRa2bHRYxNPLse+UkeOgCCnm2ZTJxlRW1SGV8/Q==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Printerdrum"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4790ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('55930ee17275620ada020000'), "equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.2404ms
+Redirected to http://localhost:3000/printerdrums/55930ee17275620ada020000
+Completed 302 Found in 43ms
+
+
+Started GET "/printerdrums/55930ee17275620ada020000" for 127.0.0.1 at 2015-06-30 14:49:21 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.8105ms
+  Rendered printerdrums/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 332ms (Views: 326.6ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:49:24 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7167ms
+  Rendered printerdrums/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 207ms (Views: 200.2ms)
+
+
+Started GET "/printerdrums/55930ee17275620ada020000/edit" for 127.0.0.1 at 2015-06-30 14:49:27 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4561ms
+  Rendered printerdrums/edit.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 156ms (Views: 154.5ms)
+
+
+Started GET "/printerdrums/55930ee17275620ada020000/edit" for 127.0.0.1 at 2015-06-30 14:50:05 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4695ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6102ms
+  Rendered printerdrums/edit.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 306ms (Views: 298.5ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:05 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:50:06 -0700
+
+
+Started PATCH "/printerdrums/55930ee17275620ada020000" for 127.0.0.1 at 2015-06-30 14:50:08 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hDbpRf9YQwBuMsAFmwyuKnRxMKmjCghB+bfnSL2/RskldjrvoxDfjaxdcrHVCauWO0iH+vioVxCKjNvAdEXmuQ==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Drum", "id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8358ms
+Completed 400 Bad Request in 5ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: printerdrum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:27:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (104.3ms)
+
+
+Started PATCH "/printerdrums/55930ee17275620ada020000" for 127.0.0.1 at 2015-06-30 14:55:37 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hDbpRf9YQwBuMsAFmwyuKnRxMKmjCghB+bfnSL2/RskldjrvoxDfjaxdcrHVCauWO0iH+vioVxCKjNvAdEXmuQ==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Drum", "id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2838ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5733ms
+Completed 400 Bad Request in 36ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: printerdrum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:27:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (97.8ms)
+
+
+Started PATCH "/printerdrums/55930ee17275620ada020000" for 127.0.0.1 at 2015-06-30 14:55:54 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hDbpRf9YQwBuMsAFmwyuKnRxMKmjCghB+bfnSL2/RskldjrvoxDfjaxdcrHVCauWO0iH+vioVxCKjNvAdEXmuQ==", "drum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 4050/4260", "drumId"=>"R00662", "quantity"=>"4"}, "commit"=>"Save Drum", "id"=>"55930ee17275620ada020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('55930ee17275620ada020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.1587ms
+Completed 400 Bad Request in 9ms
+
+ActionController::ParameterMissing (param is missing or the value is empty: printerdrum):
+  app/controllers/printerdrums_controller.rb:43:in `drum_params'
+  app/controllers/printerdrums_controller.rb:27:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (4.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (66.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (130.3ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:56:57 -0700
+Processing by PrinterdrumsController#index as HTML
+  Rendered printerdrums/index.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:   </tr>
+    11: 
+    12: <tbody> 
+    13:   <% @drum.each do |drum| %>
+    14:     <tr>
+    15:       <td><%= drum.manufacturer %></td>
+    16:       <td><%= drum.equipmentModel %></td>
+  app/views/printerdrums/index.html.erb:13:in `_app_views_printerdrums_index_html_erb___3694349425054647447_70125944512160'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (56.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (113.3ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:57:18 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1888ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.2555ms
+  Rendered printerdrums/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 240ms (Views: 239.0ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:19 -0700
+
+
+Started GET "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:57:22 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5957ms
+  Rendered printerdrums/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 224ms (Views: 213.6ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000/edit" for 127.0.0.1 at 2015-06-30 14:57:27 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.1045ms
+  Rendered printerdrums/edit.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"printerdrums", :id=>nil} missing required keys: [:id]):
+    1: <h1>EDITING PRINTER DRUM</h1>
+    2:  
+    3: <%= form_for :printerdrum, url: printerdrum_path(@drum), method: :patch do |drum| %>
+    4:  
+    5:   <% if @printerdrum.errors.any? %>
+    6:     <div id="error_explanation">
+  app/views/printerdrums/edit.html.erb:3:in `_app_views_printerdrums_edit_html_erb__2373715179769230634_70126011629240'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (43.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (85.1ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000/edit" for 127.0.0.1 at 2015-06-30 14:57:28 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.8325ms
+  Rendered printerdrums/edit.html.erb within layouts/application (9.8ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"printerdrums", :id=>nil} missing required keys: [:id]):
+    1: <h1>EDITING PRINTER DRUM</h1>
+    2:  
+    3: <%= form_for :printerdrum, url: printerdrum_path(@drum), method: :patch do |drum| %>
+    4:  
+    5:   <% if @printerdrum.errors.any? %>
+    6:     <div id="error_explanation">
+  app/views/printerdrums/edit.html.erb:3:in `_app_views_printerdrums_edit_html_erb__2373715179769230634_70126130317780'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (47.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (99.8ms)
+
+
+Started GET "/printerdrums/559307737275620ada000000/edit" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.7966ms
+  Rendered printerdrums/edit.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 312ms (Views: 307.9ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:50 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-06-30 14:57:51 -0700
+
+
+Started PATCH "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:57:56 -0700
+Processing by PrinterdrumsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xUgaOHWBEs3d5A9b1dSjNryBE1lu1jPBOknB1Iw0yMVkCMmSKcmOQB+Lve+b0aaK87ikCjV0bJBJcv1cRc5otQ==", "printerdrum"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentree 7500/7600", "drumId"=>"013R00662", "quantity"=>"9"}, "commit"=>"Save Printerdrum", "id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.5071ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('559307737275620ada000000')} update={"$set"=>{"quantity"=>"9"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 7.4621ms
+Redirected to http://localhost:3000/printerdrums/559307737275620ada000000
+Completed 302 Found in 20ms
+
+
+Started GET "/printerdrums/559307737275620ada000000" for 127.0.0.1 at 2015-06-30 14:57:56 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559307737275620ada000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559307737275620ada000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7331ms
+  Rendered printerdrums/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 275ms (Views: 272.8ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:57:59 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 11.4431ms
+  Rendered printerdrums/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 158ms (Views: 157.2ms)
+
+
+Started GET "/printerdrums/new" for 127.0.0.1 at 2015-06-30 14:58:02 -0700
+Processing by PrinterdrumsController#new as HTML
+  Rendered printerdrums/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 228ms (Views: 227.3ms)
+
+
+Started POST "/printerdrums" for 127.0.0.1 at 2015-06-30 14:58:22 -0700
+Processing by PrinterdrumsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NkqlC/76A5Z21qhh2J3zVRdFBSqzKefGWh+o/w7c9p+XCnahorKfG7S5GtWWmPbpWHyyeeiLuJcpJJR3xyZW7w==", "printerdrum"=>{"equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"Phaser 3635", "drumId"=>"9999999", "quantity"=>"7"}, "commit"=>"Save Printerdrum"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('559310fe7275620ada030000'), "equipmentType"=>"Drum", "manufacturer"=>"Xerox", "equipmentModel"=>"Phaser 3635", "drumId"=>"9999999", "quantity"=>"7"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 5.9648ms
+Redirected to http://localhost:3000/printerdrums/559310fe7275620ada030000
+Completed 302 Found in 18ms
+
+
+Started GET "/printerdrums/559310fe7275620ada030000" for 127.0.0.1 at 2015-06-30 14:58:22 -0700
+Processing by PrinterdrumsController#show as HTML
+  Parameters: {"id"=>"559310fe7275620ada030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559310fe7275620ada030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6025ms
+  Rendered printerdrums/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 325ms (Views: 321.1ms)
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:58:26 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.0833ms
+  Rendered printerdrums/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 157ms (Views: 156.7ms)
+
+
+Started DELETE "/printerdrums/559310fe7275620ada030000" for 127.0.0.1 at 2015-06-30 14:58:29 -0700
+Processing by PrinterdrumsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZUNeiv3BQcXZerLI9bQK3OJnQ3Mjlfu4iUHi5j+Z7XDEA40goYndSBsVAHy7sQ9grV70IHg3pOn6et5u9mNNAA==", "id"=>"559310fe7275620ada030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('559310fe7275620ada030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1601ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('559310fe7275620ada030000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 4.9696ms
+Redirected to http://localhost:3000/printerdrums
+Completed 302 Found in 22ms
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-06-30 14:58:30 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7045ms
+  Rendered printerdrums/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 295ms (Views: 294.2ms)

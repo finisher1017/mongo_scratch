@@ -1,5 +1,5 @@
 class TonersController < ApplicationController
-  def index
+def index
   @toner = Equipment.where(equipmentType: "Toner")
 end
 

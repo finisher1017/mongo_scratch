@@ -1,0 +1,47 @@
+<h1>EDITING PRINTER DRUM</h1>
+ 
+<%= form_for :printerdrum, url: printerdrum_path(@printerdrum), method: :patch do |drum| %>
+ 
+  <% if @printerdrum.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@printerdrum.errors.count, "error") %> prohibited
+        this drum from being saved:
+      </h2>
+      <ul>
+        <% @printerdrum.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= drum.label :manufacturer %>
+    <%= drum.text_field :manufacturer %>
+  </p>
+ 
+  <p>
+    <%= drum.label :equipmentModel %>
+    <%= drum.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= drum.label :replacementId %>
+    <%= drum.text_field :drumId %>
+  </p>
+
+  <p>
+    <%= drum.label :quantity %>
+    <%= drum.text_field :quantity %>
+  </p>
+
+ 
+  <p>
+    <%= drum.submit %>
+  </p>
+ 
+<% end %>
+ 
+
+<%= link_to 'Back', printerdrums_path %>

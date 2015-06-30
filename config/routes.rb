@@ -16,8 +16,8 @@ Rails.application.routes.draw do
   resources :deskphones
   resources :printers
   resources :toners
-  resources :containers
-  resources :drums
+  resources :wastecontainers
+  resources :printerdrums
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
