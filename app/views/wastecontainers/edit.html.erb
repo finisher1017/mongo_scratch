@@ -1,0 +1,47 @@
+<h1>EDITING WASTE CONTAINER</h1>
+ 
+<%= form_for :wastecontainer, url: wastecontainer_path(@wastecontainer), method: :patch do |container| %>
+ 
+  <% if @wastecontainer.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@wastecontainer.errors.count, "error") %> prohibited
+        this container from being saved:
+      </h2>
+      <ul>
+        <% @wastecontainer.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+ 
+  <p>
+    <%= container.label :manufacturer %>
+    <%= container.text_field :manufacturer %>
+  </p>
+ 
+  <p>
+    <%= container.label :equipmentModel %>
+    <%= container.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= container.label :replacementId %>
+    <%= container.text_field :wasteId %>
+  </p>
+
+  <p>
+    <%= container.label :quantity %>
+    <%= container.text_field :quantity %>
+  </p>
+
+ 
+  <p>
+    <%= container.submit %>
+  </p>
+ 
+<% end %>
+ 
+
+<%= link_to 'Back', wastecontainers_path %>

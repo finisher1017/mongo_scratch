@@ -14715,3 +14715,1016 @@ Processing by PrinterdrumsController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7045ms
   Rendered printerdrums/index.html.erb within layouts/application (2.9ms)
 Completed 200 OK in 295ms (Views: 294.2ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-06-30 15:13:01 -0700
+Processing by WastecontainersController#index as HTML
+  Rendered wastecontainers/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 286ms (Views: 285.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 07:39:03 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (172.1ms)
+Completed 500 Internal Server Error in 1950ms
+
+ActionView::Template::Error (undefined local variable or method `drums_path' for #<#<Class:0x0000000400fec0>:0x0000000405b9b0>):
+     6: <%= link_to 'DTUs', dtus_path %><br>
+     7: <%= link_to 'Deskphones', deskphones_path %><br>
+     8: <%= link_to 'Toner', toners_path %><br>
+     9: <%= link_to 'Printer Drums', drums_path %><br>
+    10: <%= link_to 'Waste Containers',containers_path %><br>
+  app/views/main/index.html.erb:9:in `_app_views_main_index_html_erb__585847512653985324_34379100'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (32.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (341.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (1165.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (2398.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 07:41:19 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (31.8ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined local variable or method `printrdrums_path' for #<#<Class:0x0000000400fec0>:0x000000048a5300>):
+     6: <%= link_to 'DTUs', dtus_path %><br>
+     7: <%= link_to 'Deskphones', deskphones_path %><br>
+     8: <%= link_to 'Toner', toners_path %><br>
+     9: <%= link_to 'Printer Drums', printrdrums_path %><br>
+    10: <%= link_to 'Waste Containers',containers_path %><br>
+  app/views/main/index.html.erb:9:in `_app_views_main_index_html_erb__585847512653985324_38058600'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (30.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (131.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (92.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (225.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 07:41:39 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (48.9ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (undefined local variable or method `containers_path' for #<#<Class:0x0000000400fec0>:0x00000003f76798>):
+     7: <%= link_to 'Deskphones', deskphones_path %><br>
+     8: <%= link_to 'Toner', toners_path %><br>
+     9: <%= link_to 'Printer Drums', printerdrums_path %><br>
+    10: <%= link_to 'Waste Containers',containers_path %><br>
+  app/views/main/index.html.erb:10:in `_app_views_main_index_html_erb__585847512653985324_33268700'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (11.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (78.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (3.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (155.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 07:46:10 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1951ms (Views: 1950.5ms)
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-07-04 07:46:13 -0700
+
+
+Started GET "/printerdrums" for 127.0.0.1 at 2015-07-04 07:46:23 -0700
+Processing by PrinterdrumsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1923.6795ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 601.2122ms
+  Rendered printerdrums/index.html.erb within layouts/application (2528.8ms)
+Completed 200 OK in 2676ms (Views: 2675.6ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 07:46:29 -0700
+Processing by WastecontainersController#index as HTML
+  Rendered wastecontainers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 138ms (Views: 137.6ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:06:23 -0700
+Processing by WastecontainersController#index as HTML
+  Rendered wastecontainers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 188ms (Views: 137.3ms)
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:06:28 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 242ms (Views: 241.4ms)
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:06:46 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (315.3ms)
+Completed 200 OK in 525ms (Views: 524.2ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:06:47 -0700
+
+
+Started POST "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:07:26 -0700
+Processing by WastecontainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZNAO34CzqCXWOafCyltrAk34kZYJtviriih87ILXA8nL4U2NF/Z9vtiZvH1o7DuefjNMaK9bpT4osgyYOyC5Gw==", "wastecontainer"=>{"equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "drumId"=>"903u08-099", "quantity"=>"7"}, "commit"=>"Save Wastecontainer"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.2631ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5597f6ae7275620a83000000'), "equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "drumId"=>"903u08-099", "quantity"=>"7"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 899.8041ms
+Redirected to http://localhost:3000/wastecontainers/5597f6ae7275620a83000000
+Completed 302 Found in 976ms
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:07:27 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 489.1754ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 758ms (Views: 266.3ms)
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.8967ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0811ms
+  Rendered wastecontainers/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 253ms (Views: 242.6ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:48 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:49 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:49 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:49 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:49 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-07-04 08:10:49 -0700
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:15:10 -0700
+Processing by WastecontainersController#index as HTML
+  Rendered wastecontainers/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:   </tr>
+    11: 
+    12: <tbody> 
+    13:   <% @pwastecontainer.each do |container| %>
+    14:     <tr>
+    15:       <td><%= container.manufacturer %></td>
+    16:       <td><%= container.equipmentModel %></td>
+  app/views/wastecontainers/index.html.erb:13:in `_app_views_wastecontainers_index_html_erb__3333564664664788023_70131330673760'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (56.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (111.1ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:15:11 -0700
+Processing by WastecontainersController#index as HTML
+  Rendered wastecontainers/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10:   </tr>
+    11: 
+    12: <tbody> 
+    13:   <% @pwastecontainer.each do |container| %>
+    14:     <tr>
+    15:       <td><%= container.manufacturer %></td>
+    16:       <td><%= container.equipmentModel %></td>
+  app/views/wastecontainers/index.html.erb:13:in `_app_views_wastecontainers_index_html_erb__3333564664664788023_70131145369900'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (4.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (102.0ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4631ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1444ms
+  Rendered wastecontainers/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 255ms (Views: 254.2ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-04 08:15:25 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-07-04 08:15:26 -0700
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:15:30 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 228ms (Views: 227.4ms)
+
+
+Started POST "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:15:57 -0700
+Processing by WastecontainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9WcZ220Xr0EVv1It9tgq+Li5fXECYGxsZ8ZAP+qDMwxaVlqJ+lJ62hsfSZJUb3pki3Kgj6SNMfnFXDBLU3SJ3g==", "wastecontainer"=>{"equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7775", "drumId"=>"0838-8-9-09-", "quantity"=>"4"}, "commit"=>"Save Wastecontainer"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5597f8ad7275620a83010000'), "equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7775", "drumId"=>"0838-8-9-09-", "quantity"=>"4"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 1.7646ms
+Redirected to http://localhost:3000/wastecontainers/5597f8ad7275620a83010000
+Completed 302 Found in 6ms
+
+
+Started GET "/wastecontainers/5597f8ad7275620a83010000" for 127.0.0.1 at 2015-07-04 08:15:57 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597f8ad7275620a83010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f8ad7275620a83010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3823ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 228ms (Views: 225.7ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:16:00 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.3897ms
+  Rendered wastecontainers/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 189ms (Views: 188.2ms)
+
+
+Started GET "/printerdrums/5597f6ae7275620a83000000/edit" for 127.0.0.1 at 2015-07-04 08:19:47 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.3207ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.7024ms
+Completed 404 Not Found in 18ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5597f6ae7275620a83000000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5597f6ae7275620a83000000 ... (1 total) and the following ids were not found: 5597f6ae7275620a83000000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printerdrums_controller.rb:14:in `edit'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (78.8ms)
+
+
+Started GET "/printerdrums/5597f6ae7275620a83000000/edit" for 127.0.0.1 at 2015-07-04 08:19:47 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.7048ms
+Completed 404 Not Found in 12ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5597f6ae7275620a83000000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5597f6ae7275620a83000000 ... (1 total) and the following ids were not found: 5597f6ae7275620a83000000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printerdrums_controller.rb:14:in `edit'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (42.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (37.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (90.5ms)
+
+
+Started GET "/printerdrums/5597f6ae7275620a83000000/edit" for 127.0.0.1 at 2015-07-04 08:24:48 -0700
+Processing by PrinterdrumsController#edit as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4038ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Drum", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6250ms
+Completed 404 Not Found in 20ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) 5597f6ae7275620a83000000.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): 5597f6ae7275620a83000000 ... (1 total) and the following ids were not found: 5597f6ae7275620a83000000.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/printerdrums_controller.rb:14:in `edit'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (7.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (60.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (104.5ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:25:47 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2167ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3523ms
+  Rendered wastecontainers/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 351ms (Views: 350.8ms)
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000/edit" for 127.0.0.1 at 2015-07-04 08:25:49 -0700
+Processing by WastecontainersController#edit as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 8.3334ms
+  Rendered wastecontainers/edit.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 191ms (Views: 179.0ms)
+
+
+Started PATCH "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:26:06 -0700
+Processing by WastecontainersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jhjW/nWJDyjb4UVNtQmAmS9F+JDVhmlRegujj2xhXY8hKZWs4szas9VBXvIXvtAFHI4lbnNrNMTYkdP71ZbnXQ==", "wastecontainer"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"05820583068", "quantity"=>"7"}, "commit"=>"Save Wastecontainer", "id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6749ms
+Unpermitted parameter: wasteId
+Completed 500 Internal Server Error in 22ms
+
+NoMethodError (undefined method `wastcontainer_path' for #<WastecontainersController:0x007f9171ebf6e0>):
+  app/controllers/wastecontainers_controller.rb:28:in `update'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (3.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.4ms)
+
+
+Started PATCH "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:28:47 -0700
+Processing by WastecontainersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jhjW/nWJDyjb4UVNtQmAmS9F+JDVhmlRegujj2xhXY8hKZWs4szas9VBXvIXvtAFHI4lbnNrNMTYkdP71ZbnXQ==", "wastecontainer"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"05820583068", "quantity"=>"7"}, "commit"=>"Save Wastecontainer", "id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 3.8133ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4666ms
+Unpermitted parameter: wasteId
+Redirected to http://localhost:3000/wastecontainers/5597f6ae7275620a83000000
+Completed 302 Found in 41ms
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:28:47 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.9902ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 266ms (Views: 261.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-07-04 08:28:48 -0700
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:28:54 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.0887ms
+  Rendered wastecontainers/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 248ms (Views: 245.1ms)
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000/edit" for 127.0.0.1 at 2015-07-04 08:28:59 -0700
+Processing by WastecontainersController#edit as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5015ms
+  Rendered wastecontainers/edit.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 213ms (Views: 205.6ms)
+
+
+Started PATCH "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:30:19 -0700
+Processing by WastecontainersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vNgUPD4VeUUw+olDG/c1DUhSIwHvCoEuzcpN4JZS9rgT6VduqVCs3j5akvy5QGWRe5n+/0nn3LtvUD2UL6VMag==", "wastecontainer"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"3645743757", "quantity"=>"7"}, "commit"=>"Save Wastecontainer", "id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4701ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6813ms
+Unpermitted parameter: wasteId
+Redirected to http://localhost:3000/wastecontainers/5597f6ae7275620a83000000
+Completed 302 Found in 10ms
+
+
+Started GET "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:30:19 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5224ms
+  Rendered wastecontainers/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 231ms (Views: 228.8ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:30:35 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6164ms
+  Rendered wastecontainers/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 172ms (Views: 171.2ms)
+
+
+Started DELETE "/wastecontainers/5597f6ae7275620a83000000" for 127.0.0.1 at 2015-07-04 08:30:43 -0700
+Processing by WastecontainersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"49zJ6enYYFgnTI34cbbintZlDIDBm6oGJr6lHBxG5f1M7Yq7fp21wynslkfTAbIC5a7Rfmd295OEJNVopbFfLw==", "id"=>"5597f6ae7275620a83000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5532ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5597f6ae7275620a83000000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 39.3551ms
+Redirected to http://localhost:3000/wastecontainers
+Completed 302 Found in 45ms
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:30:43 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5338ms
+  Rendered wastecontainers/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 209ms (Views: 208.4ms)
+
+
+Started DELETE "/wastecontainers/5597f8ad7275620a83010000" for 127.0.0.1 at 2015-07-04 08:30:47 -0700
+Processing by WastecontainersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"I8yjdAm94B5snBlWHTGzfmjjEBagoseA/XT8Fg+SmyaM/eAmnvg1hWI8Aum/huPiWyjN6AZPmhVf7oxitmUh9A==", "id"=>"5597f8ad7275620a83010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597f8ad7275620a83010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.0864ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5597f8ad7275620a83010000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 2.8375ms
+Redirected to http://localhost:3000/wastecontainers
+Completed 302 Found in 7ms
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:30:47 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.5427ms
+  Rendered wastecontainers/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 250ms (Views: 249.6ms)
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:30:50 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 148ms (Views: 147.2ms)
+
+
+Started POST "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:31:11 -0700
+Processing by WastecontainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VjHtx102anTUQgCp8iYgVlMsccFuwjxbi/2eavbQDu35AK6VynO/79riGxZQkXDKYOesP8gvYc4pZ+4eTye0Pw==", "wastecontainer"=>{"equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "drumId"=>"008-808", "quantity"=>"4"}, "commit"=>"Save Wastecontainer"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5597fc3f7275620a83020000'), "equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "drumId"=>"008-808", "quantity"=>"4"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 2.1528ms
+Redirected to http://localhost:3000/wastecontainers/5597fc3f7275620a83020000
+Completed 302 Found in 5ms
+
+
+Started GET "/wastecontainers/5597fc3f7275620a83020000" for 127.0.0.1 at 2015-07-04 08:31:11 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597fc3f7275620a83020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fc3f7275620a83020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.7155ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 238ms (Views: 233.5ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:32:32 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4480ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.4022ms
+  Rendered wastecontainers/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 163ms (Views: 162.8ms)
+
+
+Started DELETE "/wastecontainers/5597fc3f7275620a83020000" for 127.0.0.1 at 2015-07-04 08:32:36 -0700
+Processing by WastecontainersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NFEnTFe1Lf713Z66owLTudryFZ9SwgRLM82AskSdHdybYGQewPD4Zft9hQUBtYMl6TnIYfQvWd6RV/DG/WqnDg==", "id"=>"5597fc3f7275620a83020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fc3f7275620a83020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 7.3100ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5597fc3f7275620a83020000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 3.9156ms
+Redirected to http://localhost:3000/wastecontainers
+Completed 302 Found in 22ms
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:32:36 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4528ms
+  Rendered wastecontainers/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 217ms (Views: 216.5ms)
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:32:39 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 167ms (Views: 167.1ms)
+
+
+Started POST "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:34:24 -0700
+Processing by WastecontainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jLKq7JJHXEXtKN5Z1U6xo57zh5qjZGJ0wT0uMcCkPe8jg+m+BQKJ3uOIxeZ3+eE/rThaZAWJP+Fjp15FeVOHPQ==", "wastecontainer"=>{"equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"07070980", "quantity"=>"5"}, "commit"=>"Save Wastecontainer"}
+Unpermitted parameter: wasteId
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3325ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5597fd007275620a83030000'), "equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "quantity"=>"5"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.4992ms
+Redirected to http://localhost:3000/wastecontainers/5597fd007275620a83030000
+Completed 302 Found in 10ms
+
+
+Started GET "/wastecontainers/5597fd007275620a83030000" for 127.0.0.1 at 2015-07-04 08:34:24 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597fd007275620a83030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd007275620a83030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5800ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 218ms (Views: 215.9ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:36:12 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4361ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3464ms
+  Rendered wastecontainers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 218ms (Views: 195.5ms)
+
+
+Started DELETE "/wastecontainers/5597fd007275620a83030000" for 127.0.0.1 at 2015-07-04 08:36:16 -0700
+Processing by WastecontainersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CAHWkKJE7IDoO6S7+HN6EiPGVsnorfUB9O4L/q7+6bSnMJXCNQE5G+abvwRaxCqOEA2LN05AqJRWdHuKFwlTZg==", "id"=>"5597fd007275620a83030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd007275620a83030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5893ms
+  MOPED: 127.0.0.1:27017 DELETE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5597fd007275620a83030000')} flags=[:remove_first]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.8127ms
+Redirected to http://localhost:3000/wastecontainers
+Completed 302 Found in 18ms
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:36:16 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.5963ms
+  Rendered wastecontainers/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 355ms (Views: 354.0ms)
+
+
+Started GET "/wastecontainers/new" for 127.0.0.1 at 2015-07-04 08:36:18 -0700
+Processing by WastecontainersController#new as HTML
+  Rendered wastecontainers/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 285ms (Views: 284.6ms)
+
+
+Started POST "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:36:38 -0700
+Processing by WastecontainersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2yhK4Q+w3uWLukcifB4YPhG3fR2IXRIXjKY2zY6XyY90GQmzmPULfoUaXJ3eqUiiInyg4y6wT4IuPEa5N2BzXQ==", "wastecontainer"=>{"equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"0380398603", "quantity"=>"6"}, "commit"=>"Save Wastecontainer"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('5597fd867275620a83040000'), "equipmentType"=>"Waste Container", "manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"0380398603", "quantity"=>"6"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 0.5246ms
+Redirected to http://localhost:3000/wastecontainers/5597fd867275620a83040000
+Completed 302 Found in 6ms
+
+
+Started GET "/wastecontainers/5597fd867275620a83040000" for 127.0.0.1 at 2015-07-04 08:36:38 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597fd867275620a83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd867275620a83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 5.5346ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 258ms (Views: 247.3ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:36:46 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 15.0011ms
+  Rendered wastecontainers/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 163ms (Views: 162.9ms)
+
+
+Started GET "/wastecontainers/5597fd867275620a83040000/edit" for 127.0.0.1 at 2015-07-04 08:36:51 -0700
+Processing by WastecontainersController#edit as HTML
+  Parameters: {"id"=>"5597fd867275620a83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd867275620a83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4886ms
+  Rendered wastecontainers/edit.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 180ms (Views: 175.2ms)
+
+
+Started PATCH "/wastecontainers/5597fd867275620a83040000" for 127.0.0.1 at 2015-07-04 08:36:59 -0700
+Processing by WastecontainersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDepy3Vn+GHwh6Vi2V/NSJkA20VLnplJPl/rg3peCJA7BuqZ4iIt+v4nvt176J3UqssGu+1zxNycxZv3w6myQg==", "wastecontainer"=>{"manufacturer"=>"Xerox", "equipmentModel"=>"WorkCentre 7555", "wasteId"=>"0380398603", "quantity"=>"9"}, "commit"=>"Save Wastecontainer", "id"=>"5597fd867275620a83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd867275620a83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.6066ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_scratch_development collection=equipment selector={"_id"=>BSON::ObjectId('5597fd867275620a83040000')} update={"$set"=>{"quantity"=>"9"}} flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 157.1679ms
+Redirected to http://localhost:3000/wastecontainers/5597fd867275620a83040000
+Completed 302 Found in 165ms
+
+
+Started GET "/wastecontainers/5597fd867275620a83040000" for 127.0.0.1 at 2015-07-04 08:36:59 -0700
+Processing by WastecontainersController#show as HTML
+  Parameters: {"id"=>"5597fd867275620a83040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container", "_id"=>BSON::ObjectId('5597fd867275620a83040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.4518ms
+  Rendered wastecontainers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 269ms (Views: 258.6ms)
+
+
+Started GET "/wastecontainers" for 127.0.0.1 at 2015-07-04 08:37:04 -0700
+Processing by WastecontainersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 8.4410ms
+  Rendered wastecontainers/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 155ms (Views: 154.7ms)

@@ -1,0 +1,32 @@
+<h1>NEW WASTE CONTAINER</h1>
+
+<%= form_for :wastecontainer, url: wastecontainers_path do |container| %>
+  <p>
+    <%= container.label :Type %>
+    <%= container.text_field :equipmentType %>
+  </p>
+ 
+  <p>
+    <%= container.label :manufacturer %>
+    <%= container.text_field :manufacturer %>
+  </p>
+
+  <p>
+    <%= container.label :equipmentModel %>
+    <%= container.text_field :equipmentModel %>
+  </p>
+
+  <p>
+    <%= container.label :ID %>
+    <%= container.text_field :wasteId %>
+  </p>
+
+  <p>
+    <%= container.label :Quantity %>
+    <%= container.text_field :quantity %>
+  </p>
+ 
+  <p>
+    <%= container.submit %>
+  </p>
+<% end %>

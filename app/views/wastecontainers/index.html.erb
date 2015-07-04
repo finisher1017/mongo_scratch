@@ -1,2 +1,28 @@
-<h1>Wastecontainers#index</h1>
-<p>Find me in app/views/wastecontainers/index.html.erb</p>
+<h1>Listing Waste Containers</h1>
+ <p><%= link_to 'New Waste Container', new_wastecontainer_path %></p>
+<table>
+  <tr>
+    <th>Manufacturer</th>
+    <th>Model</th>
+    <th>ID</th>
+    <th>Quantity</th>
+    <th colspan="3"></th>
+  </tr>
+
+<tbody> 
+  <% @wastecontainer.each do |container| %>
+    <tr>
+      <td><%= container.manufacturer %></td>
+      <td><%= container.equipmentModel %></td>
+      <td><%= container.color %></td>
+      <td><%= container.replacementId %></td>
+        <td><%= container.quantity %></td>
+        <td><%= link_to 'Show', wastecontainer_path(container) %></td>
+        <td><%= link_to 'Edit', edit_wastecontainer_path(container) %></td>
+        <td><%= link_to 'Destroy', wastecontainer_path(container),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+<tbody>
+</table>
