@@ -1,5 +1,9 @@
 class DesktopsController < ApplicationController
 
+def all
+  @results = Equipment.all
+end
+
 def index
   @desktop = Equipment.where(equipmentType: "Desktop")
 end

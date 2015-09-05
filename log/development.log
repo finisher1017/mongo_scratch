@@ -15728,3 +15728,940 @@ Processing by WastecontainersController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Waste Container"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 8.4410ms
   Rendered wastecontainers/index.html.erb within layouts/application (15.8ms)
 Completed 200 OK in 155ms (Views: 154.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-02 21:51:55 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 1739ms (Views: 1554.8ms)
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 21:51:57 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 21:51:57 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 21:51:57 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 21:51:57 -0700
+
+
+Started GET "/desktops" for 127.0.0.1 at 2015-09-02 21:52:06 -0700
+Processing by DesktopsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 899.3618ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 291.3659ms
+  Rendered desktops/index.html.erb within layouts/application (1205.2ms)
+Completed 200 OK in 1440ms (Views: 1439.2ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2015-09-02 21:54:46 -0700
+Processing by SmartphonesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2005ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Smartphone"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4150ms
+  Rendered smartphones/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 176ms (Views: 174.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-02 22:02:40 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 58ms
+
+SyntaxError (/home/finisher/work/mongo_scratch/app/views/main/index.html.erb:1: syntax error, unexpected =>, expecting ')'
+/home/finisher/work/mongo_scratch/app/views/main/index.html.erb:13: syntax error, unexpected keyword_ensure, expecting ')'
+/home/finisher/work/mongo_scratch/app/views/main/index.html.erb:15: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/main/index.html.erb:1: syntax error, unexpected =>, expecting ')'
+  app/views/main/index.html.erb:13: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/main/index.html.erb:15: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (100.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (248.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 273ms (Views: 271.6ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:30 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-02 22:04:55 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 244ms (Views: 242.7ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:04:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4926ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 20.5947ms
+  Rendered main/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 374ms (Views: 373.6ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-09-02 22:10:59 -0700
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-09-02 22:16:03 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4775ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 36.2563ms
+  Rendered toners/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 328ms (Views: 326.8ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-09-02 22:16:13 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7696ms
+  Rendered toners/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 256ms (Views: 255.4ms)
+
+
+Started GET "/toners/new" for 127.0.0.1 at 2015-09-02 22:16:19 -0700
+Processing by TonersController#new as HTML
+  Rendered toners/new.html.erb within layouts/application (507.9ms)
+Completed 200 OK in 761ms (Views: 760.3ms)
+
+
+Started POST "/toners" for 127.0.0.1 at 2015-09-02 22:16:50 -0700
+Processing by TonersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bO9MQtCthi/IJYYUtZ1rOSHdajzlw49guT1LnnJmuKiXd31BMWR2yR0ffdbn0oxbVuDjEj75xG3DQGc7SXZosQ==", "toner"=>{"equipmentType"=>"Toner", "manufacturer"=>"Xerox", "equipmentModel"=>"WC7555", "color"=>"Black", "replacementId"=>"4847593", "quantity"=>"5"}, "commit"=>"Save Toner"}
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_scratch_development collection=equipment documents=[{"_id"=>BSON::ObjectId('55e7d7c27275622fcf000000'), "equipmentType"=>"Toner", "manufacturer"=>"Xerox", "equipmentModel"=>"WC7555", "color"=>"Black", "replacementId"=>"4847593", "quantity"=>"5"}] flags=[]
+                         COMMAND      database=mongo_scratch_development command={:getlasterror=>1, :w=>1} runtime: 103.1971ms
+Redirected to http://localhost:3000/toners/55e7d7c27275622fcf000000
+Completed 302 Found in 235ms
+
+
+Started GET "/toners/55e7d7c27275622fcf000000" for 127.0.0.1 at 2015-09-02 22:16:50 -0700
+Processing by TonersController#show as HTML
+  Parameters: {"id"=>"55e7d7c27275622fcf000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner", "_id"=>BSON::ObjectId('55e7d7c27275622fcf000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 130.6785ms
+  Rendered toners/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 415ms (Views: 282.8ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2015-09-02 22:16:58 -0700
+Processing by TonersController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Toner"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.2734ms
+  Rendered toners/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 253ms (Views: 252.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-03 21:49:09 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.0672ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1510ms
+  Rendered main/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 2558ms (Views: 2386.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:02:03 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2259.0324ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 421.1400ms
+  Rendered main/index.html.erb within layouts/application (2711.6ms)
+Completed 200 OK in 6295ms (Views: 5994.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:16:15 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 8.7508ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1283ms
+  Rendered main/index.html.erb within layouts/application (198.8ms)
+Completed 200 OK in 702ms (Views: 700.7ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/assets/application.self-88e161e2e0c47e1d4ec2ea10cb9d93d397ad333930432db0f119c887a6042356.js?body=1" for 127.0.0.1 at 2015-09-04 18:16:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4484ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4636ms
+  Rendered main/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 390ms (Views: 389.5ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/assets/application.self-1a967f454e779e6cd7e2bc5980a0531f49198bef1e37fa4fb99fca67dc1e5097.js?body=1" for 127.0.0.1 at 2015-09-04 18:24:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:24:29 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.0284ms
+  Rendered main/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 233ms (Views: 232.5ms)
+
+
+Started GET "/dtus" for 127.0.0.1 at 2015-09-04 18:24:33 -0700
+Processing by DtusController#index as */*
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"DTU"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 31.8165ms
+  Rendered dtus/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 240ms (Views: 239.3ms)
+
+
+Started GET "/desktops/all" for 127.0.0.1 at 2015-09-04 18:24:49 -0700
+Processing by DesktopsController#show as */*
+  Parameters: {"id"=>"all"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>"all"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 52.7637ms
+Completed 404 Not Found in 175ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) all.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): all ... (1 total) and the following ids were not found: all.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (30.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (90.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (228.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:25:07 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1041ms
+  Rendered main/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 220ms (Views: 218.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.8236ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 35.0131ms
+  Rendered main/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 327ms (Views: 317.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:33 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/assets/application.self-1a967f454e779e6cd7e2bc5980a0531f49198bef1e37fa4fb99fca67dc1e5097.js?body=1" for 127.0.0.1 at 2015-09-04 18:30:34 -0700
+
+
+Started GET "/desktops/all" for 127.0.0.1 at 2015-09-04 18:30:41 -0700
+Processing by DesktopsController#show as */*
+  Parameters: {"id"=>"all"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>"all"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4827ms
+Completed 404 Not Found in 2ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) all.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): all ... (1 total) and the following ids were not found: all.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:8:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (43.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (102.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 18:55:53 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0599ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.1979ms
+  Rendered main/index.html.erb within layouts/application (68.1ms)
+Completed 200 OK in 2537ms (Views: 2457.4ms)
+
+
+Started GET "/desktops/all" for 127.0.0.1 at 2015-09-04 18:56:02 -0700
+Processing by DesktopsController#show as */*
+  Parameters: {"id"=>"all"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>"all"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 4.9239ms
+Completed 404 Not Found in 322ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) all.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): all ... (1 total) and the following ids were not found: all.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:12:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (5.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (29.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (3.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (46.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (107.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 19:05:16 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6017ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6972ms
+  Rendered main/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 339ms (Views: 312.7ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/assets/application.self-1a967f454e779e6cd7e2bc5980a0531f49198bef1e37fa4fb99fca67dc1e5097.js?body=1" for 127.0.0.1 at 2015-09-04 19:05:17 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 19:05:21 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 6.6034ms
+  Rendered main/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 330ms (Views: 328.8ms)
+
+
+Started GET "/desktops/all" for 127.0.0.1 at 2015-09-04 19:05:26 -0700
+Processing by DesktopsController#show as */*
+  Parameters: {"id"=>"all"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>"all"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6284ms
+Completed 404 Not Found in 5ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) all.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): all ... (1 total) and the following ids were not found: all.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:12:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (48.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (48.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (108.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-04 19:10:25 -0700
+Processing by MainController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7459ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.3133ms
+  Rendered main/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 433ms (Views: 432.1ms)
+
+
+Started GET "/assets/application.self-c02971144366764aadb1b255b0919afdaa2ae35a48805acddeb475cc0e95b85a.js?body=1" for 127.0.0.1 at 2015-09-04 19:10:25 -0700
+
+
+Started GET "/desktops/all" for 127.0.0.1 at 2015-09-04 19:10:29 -0700
+Processing by DesktopsController#show as */*
+  Parameters: {"id"=>"all"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_scratch_development collection=equipment selector={"equipmentType"=>"Desktop", "_id"=>"all"} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.4159ms
+Completed 404 Not Found in 5ms
+
+Mongoid::Errors::DocumentNotFound (
+Problem:
+  Document(s) not found for class Equipment with id(s) all.
+Summary:
+  When calling Equipment.find with an id or array of ids, each parameter must match a document in the database or this error will be raised. The search was for the id(s): all ... (1 total) and the following ids were not found: all.
+Resolution:
+  Search for an id that is in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error when searching for a single id, or only the matched documents when searching for multiples.):
+  app/controllers/desktops_controller.rb:12:in `show'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (47.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (35.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (96.8ms)
+
+
+Started GET "/Asset%20Type" for 127.0.0.1 at 2015-09-04 19:10:34 -0700
+
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/finisher/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (9.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (34.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (88.2ms)

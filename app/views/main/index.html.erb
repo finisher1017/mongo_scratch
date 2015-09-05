@@ -1,5 +1,32 @@
-<h1>Main#index</h1>
-<p>Find me in app/views/main/index.html.erb</p>
+<table>
+  <thead>
+    <tr>
+      <th>Manufacturer</th>
+      <th>Model</th>
+      <th>Jslgtag</th>
+      <th>Location</th>
+      <th>Assignedto</th>
+      <th>Status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @equip.each do |equip| %>
+      <tr>
+        <td><%= equip.manufacturer %></td>
+        <td><%= equip.equipmentModel %></td>
+        <td><%= equip.jslgTag %></td>
+        <td><%= equip.location %></td>
+        <td><%= equip.assigneeName %></td>
+        <td><%= equip.status %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<br>
 <%= link_to 'Desktops', desktops_path %><br>
 <%= link_to 'Smartphones', smartphones_path %><br>
 <%= link_to 'Laptops', laptops_path %><br>
@@ -8,5 +35,37 @@
 <%= link_to 'Toner', toners_path %><br>
 <%= link_to 'Printer Drums', printerdrums_path %><br>
 <%= link_to 'Waste Containers',wastecontainers_path %><br>
+<br>
+
+<select id="asset_type">
+<%= options_for_select([['Asset Type'], ['Desktop', 'desktops/all'], ['Laptop', 'laptops'], ['DTU', 'dtus'], ['Mobile Cart', 'mobilecarts'], ['Smart Phone', 'smartphones'], ['Desk Phone', 'deskphones'], ['Printer', 'printers'], ['Toner', 'toners']]) %>
+</select>
+<br><br>
+
+<select id="dell_desktop_model">
+<%= options_for_select([['Asset Model'], ['Optiplex 980', 'optiplex980'], ['Optiplex 960', 'optiplex960'], ['Optiplex 755', 'optiplex755'], ['Optiplex 320', 'optiplex320']]) %>
+</select>
+<br><br>
+
+<select id="dell_laptop_model">
+<%= options_for_select([['Search By'], ['Latitude E7240', 'latitudeE7240'], ['Latitude E6510', 'latitudeE6510'], ['Latitude E6420', 'latitudeE6420'], ['Latitude E6410', 'latitudeE6410'], ['
+  Latitude E6230', 'latitudeE6230'], ['
+  Latitude E5550', 'latitudeE5550'], ['
+  Latitude E4310', 'latitudeE4310'], ['
+  Latitude E4300', 'latitudeE4300']]) %>
+</select>
+<br>
+
+<%= form_for :article do |f| %>
+<p>
+    <%= f.text_field :search %>
+</p>
+<% end %>
+</div>
+<br>
+
+<div id="results" style= "float: center"><center>
+<h1>Search Results</h1>
+</center></div>
 
 

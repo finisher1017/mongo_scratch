@@ -1,5 +1,5 @@
 class MainController < ApplicationController
   def index
-  	@desktop = Equipment.all
+  	@equip = Equipment.all
   end
 end
