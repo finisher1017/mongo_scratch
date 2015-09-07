@@ -25,6 +25,8 @@ gem 'mongoid', '~> 4.0.0'
 
 gem 'bson_ext'
 
+gem 'responders'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

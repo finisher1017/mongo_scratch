@@ -62,7 +62,7 @@ var toner_search = ["Search By", "Color", "ID", "Quantity"];
 
 $(document).ready( function() {
 	$('#asset_type').change( function() {
-		if ($('#asset_type').val() == 'desktops/index') {
+		if ($('#asset_type').val() == 'desktops') {
 			$('#dell_desktop_model').find('option').remove();
 			desktop_models.forEach(function(deskmodel) {
 				$('#dell_desktop_model').append('<option value="'+deskmodel+'">'+deskmodel+'</option>');
@@ -144,6 +144,7 @@ $(document).ready( function() {
 				$('#dell_laptop_model').append('<option value="'+tonersearch+'">'+tonersearch+'</option>');
 			})
 		}
+
 		$.get($('#asset_type').val(), function(data) {
 			$('#results').html(data);
 

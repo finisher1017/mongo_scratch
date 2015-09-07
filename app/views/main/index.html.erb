@@ -1,3 +1,6 @@
+
+<div id="results" style= "float: center"><center>
+<h1>Search Results</h1>
 <table>
   <thead>
     <tr>
@@ -24,31 +27,23 @@
     <% end %>
   </tbody>
 </table>
+</center></div>
+<br>
+<br>
 
-<br>
-<br>
-<%= link_to 'Desktops', desktops_path %><br>
-<%= link_to 'Smartphones', smartphones_path %><br>
-<%= link_to 'Laptops', laptops_path %><br>
-<%= link_to 'DTUs', dtus_path %><br>
-<%= link_to 'Deskphones', deskphones_path %><br>
-<%= link_to 'Toner', toners_path %><br>
-<%= link_to 'Printer Drums', printerdrums_path %><br>
-<%= link_to 'Waste Containers',wastecontainers_path %><br>
-<br>
 
 <select id="asset_type">
-<%= options_for_select([['Asset Type'], ['Desktop', 'desktops/all'], ['Laptop', 'laptops'], ['DTU', 'dtus'], ['Mobile Cart', 'mobilecarts'], ['Smart Phone', 'smartphones'], ['Desk Phone', 'deskphones'], ['Printer', 'printers'], ['Toner', 'toners']]) %>
+<%= options_for_select([['Asset Type'], ['Desktop', 'desktops'], ['Laptop', 'laptops'], ['DTU', 'dtus'], ['Mobile Cart', 'mobilecarts'], ['Smart Phone', 'smartphones'], ['Desk Phone', 'deskphones'], ['Printer', 'printers'], ['Toner', 'toners']]) %>
 </select>
 <br><br>
 
-<select id="dell_desktop_model">
+<select id="asset_model">
 <%= options_for_select([['Asset Model'], ['Optiplex 980', 'optiplex980'], ['Optiplex 960', 'optiplex960'], ['Optiplex 755', 'optiplex755'], ['Optiplex 320', 'optiplex320']]) %>
 </select>
 <br><br>
 
 <select id="dell_laptop_model">
-<%= options_for_select([['Search By'], ['Latitude E7240', 'latitudeE7240'], ['Latitude E6510', 'latitudeE6510'], ['Latitude E6420', 'latitudeE6420'], ['Latitude E6410', 'latitudeE6410'], ['
+<%= options_for_select ([['Search By'], ['Latitude E7240', 'latitudeE7240'], ['Latitude E6510', 'latitudeE6510'], ['Latitude E6420', 'latitudeE6420'], ['Latitude E6410', 'latitudeE6410'], ['
   Latitude E6230', 'latitudeE6230'], ['
   Latitude E5550', 'latitudeE5550'], ['
   Latitude E4310', 'latitudeE4310'], ['
@@ -62,10 +57,22 @@
 </p>
 <% end %>
 </div>
+
+<br>
+<%= link_to 'Desktops', desktops_path %><br>
+<%= link_to 'Smartphones', smartphones_path %><br>
+<%= link_to 'Laptops', laptops_path %><br>
+<%= link_to 'DTUs', dtus_path %><br>
+<%= link_to 'Deskphones', deskphones_path %><br>
+<%= link_to 'Toner', toners_path %><br>
+<%= link_to 'Printer Drums', printerdrums_path %><br>
+<%= link_to 'Waste Containers',wastecontainers_path %><br>
 <br>
 
-<div id="results" style= "float: center"><center>
-<h1>Search Results</h1>
-</center></div>
+
+
+
+
+
 
 
