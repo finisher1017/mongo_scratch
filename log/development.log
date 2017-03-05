@@ -19748,3 +19748,2230 @@ Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f26
 
 
 Started GET "/assets/application.self-608c4a54b7d1e5f817ea53222dd76fe8f78252335dde99302ea4eb35e959daa4.js?body=1&_=1441583717719" for 127.0.0.1 at 2015-09-06 16:56:26 -0700
+Started GET "/" for 127.0.0.1 at 2017-02-01 21:10:28 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+  Rendered main/index.html.erb within layouts/application (30097.9ms)
+Completed 500 Internal Server Error in 30162ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x27283020 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @equip.each do |equip| %>
+    19:       <tr>
+    20:         <td><%= equip.manufacturer %></td>
+    21:         <td><%= equip.equipmentModel %></td>
+  
+app/views/main/index.html.erb:18:in `_app_views_main_index_html_erb__1988279156436007426_27629340'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (25.1ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.8ms)
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-02-01 21:18:11 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+  Rendered main/index.html.erb within layouts/application (30058.7ms)
+Completed 500 Internal Server Error in 30064ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x21523860 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @equip.each do |equip| %>
+    19:       <tr>
+    20:         <td><%= equip.manufacturer %></td>
+    21:         <td><%= equip.equipmentModel %></td>
+  
+app/views/main/index.html.erb:18:in `_app_views_main_index_html_erb__1988279156436007426_21769600'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.0ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.7ms)
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-02-01 22:03:06 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.021539388s
+  Rendered main/index.html.erb within layouts/application (83.9ms)
+Completed 200 OK in 1733ms (Views: 1628.9ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:08 -0800
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/application.self-608c4a54b7d1e5f817ea53222dd76fe8f78252335dde99302ea4eb35e959daa4.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-01 22:03:09 -0800
+Started GET "/desktops" for 127.0.0.1 at 2017-02-01 22:03:19 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000446769s
+  Rendered desktops/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 90ms (Views: 74.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-02 20:40:54 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0008627299999999999s
+  Rendered main/index.html.erb within layouts/application (243.8ms)
+Completed 200 OK in 4444ms (Views: 4329.5ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-02-02 20:41:09 -0800
+Processing by DesktopsController#index as HTML
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001009374s
+  Rendered desktops/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 225ms (Views: 83.3ms)
+
+
+Started GET "/desktops/new" for 127.0.0.1 at 2017-02-02 20:41:12 -0800
+Processing by DesktopsController#new as HTML
+  Rendering desktops/new.html.erb within layouts/application
+  Rendered desktops/new.html.erb within layouts/application (270.4ms)
+Completed 200 OK in 369ms (Views: 335.6ms)
+
+
+Started POST "/desktops" for 127.0.0.1 at 2017-02-02 20:41:53 -0800
+Processing by DesktopsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ORIxdE7vcbdHaDjJldoNATpWGx28LQAzuuJV+P4CuHropk1XcwZqPDE+KPMLm1r/3/t+R+SX0uXYlNWr9NerRw==", "desktop"=>{"equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"P700", "jslgTag"=>"MJ00FUKU", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "hostName"=>"", "ram"=>"", "hdd"=>"", "department"=>"", "location"=>"", "assigneeName"=>"", "status"=>"", "notes"=>""}, "commit"=>"Save Desktop"}
+MONGODB | localhost:27017 | mongo_scratch_development.insert | STARTED | {"insert"=>"equipment", "documents"=>[{"_id"=>BSON::ObjectId('58940a117df27d4fad54d8c4'), "equipmentType"=>"Desktop", "manufacturer"=>"Lenovo", "equipmentModel"=>"P700", "jslgTag"=>"MJ00FUKU", "manufacturerTag"=>"", "serialNumber"=>"", "osType"=>"", "...
+MONGODB | localhost:27017 | mongo_scratch_development.insert | SUCCEEDED | 0.24308580800000001s
+Redirected to http://localhost:3000/desktops/58940a117df27d4fad54d8c4
+Completed 302 Found in 385ms
+
+
+Started GET "/desktops/58940a117df27d4fad54d8c4" for 127.0.0.1 at 2017-02-02 20:41:54 -0800
+Processing by DesktopsController#show as HTML
+  Parameters: {"id"=>"58940a117df27d4fad54d8c4"}
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop", "_id"=>BSON::ObjectId('58940a117df27d4fad54d8c4')}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.036242193s
+  Rendering desktops/show.html.erb within layouts/application
+  Rendered desktops/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 134ms (Views: 78.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-04 11:45:12 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000448733s
+  Rendered main/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 1058ms (Views: 1057.1ms)
+
+
+Started GET "/assets/deskphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/laptops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/main.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/dtus.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/desktops.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/printers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/printerdrums.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/smartphones.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/wastecontainers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/toners.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:13 -0800
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/dtus.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/desktops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/deskphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/laptops.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/main.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/printers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/toners.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/printerdrums.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/smartphones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/wastecontainers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/assets/application.self-608c4a54b7d1e5f817ea53222dd76fe8f78252335dde99302ea4eb35e959daa4.js?body=1" for 127.0.0.1 at 2017-02-04 11:45:14 -0800
+Started GET "/" for 127.0.0.1 at 2017-03-05 10:56:59 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+  Rendered main/index.html.erb within layouts/application (30117.7ms)
+Completed 500 Internal Server Error in 30597ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69987031509060 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @equip.each do |equip| %>
+    19:       <tr>
+    20:         <td><%= equip.manufacturer %></td>
+    21:         <td><%= equip.equipmentModel %></td>
+  
+app/views/main/index.html.erb:18:in `_app_views_main_index_html_erb__406028602793022163_69987031284160'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (10.1ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (285.4ms)
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-03-05 11:01:45 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+  Rendered main/index.html.erb within layouts/application (30075.3ms)
+Completed 500 Internal Server Error in 30131ms
+
+
+  
+ActionView::Template::Error (No server is available matching preference: #<Mongo::ServerSelector::Primary:0x69877174329200 tag_sets=[] max_staleness=nil> using server_selection_timeout=30 and local_threshold=0.015):
+    15:   </thead>
+    16: 
+    17:   <tbody>
+    18:     <% @equip.each do |equip| %>
+    19:       <tr>
+    20:         <td><%= equip.manufacturer %></td>
+    21:         <td><%= equip.equipmentModel %></td>
+  
+app/views/main/index.html.erb:18:in `_app_views_main_index_html_erb__4269271557396869285_34772380'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (17.5ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.5ms)
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+MONGODB | Connection refused - connect(2) for 127.0.0.1:27017
+Started GET "/" for 127.0.0.1 at 2017-03-05 11:54:03 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000954173s
+  Rendered main/index.html.erb within layouts/application (136.0ms)
+Completed 200 OK in 1600ms (Views: 1558.2ms)
+
+
+Started GET "/dtus" for 127.0.0.1 at 2017-03-05 11:54:10 -0800
+Processing by DtusController#index as */*
+  Rendering dtus/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"DTU"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000447665s
+  Rendered dtus/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 302ms (Views: 282.1ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 11:54:24 -0800
+Processing by DesktopsController#index as */*
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 11:54:24 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0012421580000000002s
+  Rendered desktops/index.html.erb within layouts/application (13.4ms)
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000945779s
+  Rendered desktops/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 230ms (Views: 204.0ms)
+
+
+Completed 200 OK in 237ms (Views: 216.7ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 11:54:35 -0800
+Processing by SmartphonesController#index as */*
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 11:54:35 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034226s
+  Rendered smartphones/index.html.erb within layouts/application (5.4ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 11:54:35 -0800
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.016107721999999998s
+  Rendered smartphones/index.html.erb within layouts/application (24.1ms)
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000398296s
+  Rendered smartphones/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 281ms (Views: 266.0ms)
+
+
+Completed 200 OK in 300ms (Views: 262.7ms)
+
+
+Completed 200 OK in 242ms (Views: 224.7ms)
+
+
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 11:54:46 -0800
+Processing by LaptopsController#index as */*
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 11:54:46 -0800
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 11:54:46 -0800
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 11:54:46 -0800
+Processing by LaptopsController#index as */*
+Processing by LaptopsController#index as */*
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+  Rendering laptops/index.html.erb within layouts/application
+  Rendering laptops/index.html.erb within layouts/application
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0012629660000000001s
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001136487s
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+  Rendered laptops/index.html.erb within layouts/application (8.3ms)
+  Rendered laptops/index.html.erb within layouts/application (7.8ms)
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000705359s
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.031737352s
+  Rendered laptops/index.html.erb within layouts/application (29.3ms)
+  Rendered laptops/index.html.erb within layouts/application (39.7ms)
+Completed 200 OK in 405ms (Views: 348.3ms)
+
+
+Completed 200 OK in 432ms (Views: 400.3ms)
+
+
+Completed 200 OK in 446ms (Views: 442.6ms)
+
+
+Completed 200 OK in 481ms (Views: 447.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 11:55:09 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001544622s
+  Rendered main/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 120ms (Views: 119.2ms)
+
+
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 11:55:14 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000408425s
+  Rendered laptops/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 113ms (Views: 109.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 12:44:11 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.002550263s
+  Rendered main/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 647ms (Views: 593.2ms)
+
+
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 12:44:17 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0037643620000000003s
+  Rendered laptops/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 210ms (Views: 193.0ms)
+
+
+Started GET "/mobilecarts" for 127.0.0.1 at 2017-03-05 12:47:10 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/mobilecarts"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/mobilecarts" for 127.0.0.1 at 2017-03-05 12:47:10 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/mobilecarts"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (19.1ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (42.3ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 12:47:17 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000464851s
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 12:47:17 -0800
+  Rendered smartphones/index.html.erb within layouts/application (12.1ms)
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00041310299999999995s
+  Rendered smartphones/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 247ms (Views: 236.4ms)
+
+
+Completed 200 OK in 276ms (Views: 247.8ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2017-03-05 12:47:30 -0800
+Processing by PrintersController#index as */*
+Started GET "/printers" for 127.0.0.1 at 2017-03-05 12:47:30 -0800
+Started GET "/printers" for 127.0.0.1 at 2017-03-05 12:47:30 -0800
+Processing by PrintersController#index as */*
+Processing by PrintersController#index as */*
+  Rendering printers/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Printer"}}
+  Rendering printers/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0012242779999999999s
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Printer"}}
+  Rendered printers/index.html.erb within layouts/application (7.0ms)
+  Rendering printers/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Printer"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.012023206s
+  Rendered printers/index.html.erb within layouts/application (13.6ms)
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.008933535s
+  Rendered printers/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 306ms (Views: 261.7ms)
+
+
+Completed 200 OK in 352ms (Views: 315.9ms)
+
+
+Completed 200 OK in 392ms (Views: 349.2ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 12:47:40 -0800
+Processing by TonersController#index as */*
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 12:47:40 -0800
+  Rendering toners/index.html.erb within layouts/application
+Processing by TonersController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000589352s
+  Rendered toners/index.html.erb within layouts/application (31.1ms)
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 12:47:40 -0800
+Processing by TonersController#index as */*
+  Rendering toners/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 12:47:41 -0800
+Processing by TonersController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.015781914999999997s
+  Rendered toners/index.html.erb within layouts/application (58.5ms)
+  Rendering toners/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000424891s
+  Rendered toners/index.html.erb within layouts/application (17.7ms)
+  Rendering toners/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001192107s
+  Rendered toners/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 574ms (Views: 559.9ms)
+
+
+Completed 200 OK in 516ms (Views: 460.7ms)
+
+
+Completed 200 OK in 581ms (Views: 578.2ms)
+
+
+Completed 200 OK in 520ms (Views: 492.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 13:22:28 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000399697s
+  Rendered main/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 341ms (Views: 338.9ms)
+
+
+Started GET "/assets/application.self-7ebaecb8ec2373ea2584c634492690775ae63d885cda210ce2eb3dba224a7efa.js?body=1" for 127.0.0.1 at 2017-03-05 13:22:29 -0800
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 13:22:33 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00076741s
+  Rendered laptops/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 132ms (Views: 118.6ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:04 -0800
+Processing by DesktopsController#index as */*
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:04 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00062816s
+  Rendered desktops/index.html.erb within layouts/application (23.9ms)
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00037920499999999997s
+  Rendered desktops/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 231ms (Views: 227.3ms)
+
+
+Completed 200 OK in 234ms (Views: 212.1ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:04:12 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00040752999999999997s
+  Rendered smartphones/index.html.erb within layouts/application (8.6ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:04:12 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034979s
+  Rendered smartphones/index.html.erb within layouts/application (11.3ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:04:12 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.006770916s
+  Rendered smartphones/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 315ms (Views: 297.4ms)
+
+
+Completed 200 OK in 347ms (Views: 320.9ms)
+
+
+Completed 200 OK in 259ms (Views: 256.3ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:22 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:22 -0800
+Processing by DesktopsController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.032303646s
+  Rendered desktops/index.html.erb within layouts/application (35.0ms)
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:22 -0800
+  Rendering desktops/index.html.erb within layouts/application
+Processing by DesktopsController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.003751065s
+  Rendered desktops/index.html.erb within layouts/application (37.5ms)
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001135823s
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:04:22 -0800
+  Rendered desktops/index.html.erb within layouts/application (36.2ms)
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000817443s
+  Rendered desktops/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 503ms (Views: 499.7ms)
+
+
+Completed 200 OK in 527ms (Views: 523.8ms)
+
+
+Completed 200 OK in 494ms (Views: 490.9ms)
+
+
+Completed 200 OK in 370ms (Views: 367.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:04:27 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000395172s
+  Rendered main/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 115ms (Views: 112.9ms)
+
+
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 14:04:35 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000617877s
+  Rendered laptops/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 107ms (Views: 104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:08:37 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.007001862s
+  Rendered main/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 198ms (Views: 197.1ms)
+
+
+Started GET "/assets/application.self-6977eee5c7469fa6364d2f6c091bbffcbc14d7cbebe9572369f050d7355c8a13.js?body=1" for 127.0.0.1 at 2017-03-05 14:08:38 -0800
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:08:54 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000402179s
+  Rendered desktops/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 122ms (Views: 118.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:09:03 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034075100000000003s
+  Rendered main/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 129ms (Views: 119.2ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:09:11 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000380893s
+  Rendered desktops/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 123ms (Views: 108.1ms)
+
+
+Started GET "/printers" for 127.0.0.1 at 2017-03-05 14:09:56 -0800
+Processing by PrintersController#index as */*
+  Rendering printers/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Printer"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000403119s
+  Rendered printers/index.html.erb within layouts/application (3.2ms)
+Started GET "/printers" for 127.0.0.1 at 2017-03-05 14:09:56 -0800
+Processing by PrintersController#index as */*
+  Rendering printers/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Printer"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000342839s
+  Rendered printers/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 219ms (Views: 215.8ms)
+
+
+Completed 200 OK in 279ms (Views: 252.7ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:10:05 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00037736s
+  Rendered smartphones/index.html.erb within layouts/application (4.4ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:10:05 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000400148s
+  Rendered smartphones/index.html.erb within layouts/application (9.6ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 14:10:06 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0036477339999999997s
+  Rendered smartphones/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 286ms (Views: 282.3ms)
+
+
+Completed 200 OK in 297ms (Views: 276.1ms)
+
+
+Completed 200 OK in 272ms (Views: 269.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:23:55 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000467547s
+  Rendered main/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 106ms (Views: 104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:33:53 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00038012800000000003s
+  Rendered main/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 90ms (Views: 88.6ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:35:22 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.001529403s
+  Rendered desktops/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 111ms (Views: 99.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:42:04 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034723999999999996s
+  Rendered main/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 324ms (Views: 323.1ms)
+
+
+Started GET "/assets/application.self-49a844386a6c5847810592621ecfc8a0d73a1723216cf9b34d9b156e87151af4.js?body=1" for 127.0.0.1 at 2017-03-05 14:42:04 -0800
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 14:42:08 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000417246s
+  Rendered desktops/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 156ms (Views: 153.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:46:21 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000408934s
+  Rendered main/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 259ms (Views: 258.2ms)
+
+
+Started GET "/assets/application.self-d9e731f5861fad4818f4213b3828474752d6d75c2d31049780e74a7fe545fdfc.js?body=1" for 127.0.0.1 at 2017-03-05 14:46:21 -0800
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 14:46:38 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000365553s
+  Rendered laptops/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 123ms (Views: 113.7ms)
+
+
+Started GET "/dtus" for 127.0.0.1 at 2017-03-05 14:48:01 -0800
+Processing by DtusController#index as */*
+  Rendering dtus/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"DTU"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00036570600000000004s
+  Rendered dtus/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 95ms (Views: 82.0ms)
+
+
+Started GET "/dtus" for 127.0.0.1 at 2017-03-05 14:48:02 -0800
+Processing by DtusController#index as */*
+  Rendering dtus/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"DTU"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000373226s
+  Rendered dtus/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 178ms (Views: 164.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 14:50:49 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00041438799999999996s
+  Rendered main/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 236ms (Views: 234.9ms)
+
+
+Started GET "/assets/application.self-d9fb24484bf44ffaf98df85185e4a9788bf7e36ac5f794d7917273b2d16fda01.js?body=1" for 127.0.0.1 at 2017-03-05 14:50:49 -0800
+Started GET "/dtus" for 127.0.0.1 at 2017-03-05 14:50:53 -0800
+Processing by DtusController#index as */*
+  Rendering dtus/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"DTU"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000376973s
+  Rendered dtus/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 139ms (Views: 132.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 15:03:50 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000380685s
+  Rendered main/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 207ms (Views: 204.5ms)
+
+
+Started GET "/assets/application.self-4e76cc05e5db27fcfefc48ab606e005640b381bad3ab7e050b39231635546e96.js?body=1" for 127.0.0.1 at 2017-03-05 15:03:50 -0800
+Started GET "/deskphones" for 127.0.0.1 at 2017-03-05 15:04:04 -0800
+Processing by DeskphonesController#index as */*
+  Rendering deskphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Deskphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000404432s
+  Rendered deskphones/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 169ms (Views: 103.1ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 15:07:27 -0800
+Processing by TonersController#index as */*
+  Rendering toners/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000352026s
+  Rendered toners/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 100ms (Views: 96.5ms)
+
+
+Started GET "/toners" for 127.0.0.1 at 2017-03-05 15:07:27 -0800
+Processing by TonersController#index as */*
+  Rendering toners/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Toner"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000444427s
+  Rendered toners/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 158ms (Views: 146.6ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 15:07:57 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.003037652s
+  Rendered desktops/index.html.erb within layouts/application (10.6ms)
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 15:07:57 -0800
+Processing by DesktopsController#index as */*
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00040358900000000004s
+  Rendered desktops/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 264ms (Views: 260.7ms)
+
+
+Started GET "/desktops" for 127.0.0.1 at 2017-03-05 15:07:57 -0800
+Processing by DesktopsController#index as */*
+Completed 200 OK in 259ms (Views: 233.8ms)
+
+
+  Rendering desktops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Desktop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.0005320689999999999s
+  Rendered desktops/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 208ms (Views: 175.7ms)
+
+
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:08:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:08:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:08:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:08:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (86.5ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (6.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (50.7ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (46.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (44.5ms)
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:11:22 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00035020099999999996s
+  Rendered laptops/index.html.erb within layouts/application (6.6ms)
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:11:22 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:11:22 -0800
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.010343037s
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:11:22 -0800
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+  Rendered laptops/index.html.erb within layouts/application (78.8ms)
+Processing by LaptopsController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.023776382999999998s
+  Rendered laptops/index.html.erb within layouts/application (35.7ms)
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.004027672s
+  Rendered laptops/index.html.erb within layouts/application (80.4ms)
+Completed 200 OK in 353ms (Views: 349.6ms)
+
+
+Completed 200 OK in 557ms (Views: 554.0ms)
+
+
+Completed 200 OK in 519ms (Views: 515.5ms)
+
+
+Completed 200 OK in 530ms (Views: 487.9ms)
+
+
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:11:32 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:11:32 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:11:32 -0800
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:11:32 -0800
+  
+  
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+Started GET "/Asset%20Type" for 127.0.0.1 at 2017-03-05 15:11:32 -0800
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (95.1ms)
+ActionController::RoutingError (No route matches [GET] "/Asset%20Type"):
+  
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (67.7ms)
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (63.2ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.9ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (33.2ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (46.5ms)
+Started GET "/" for 127.0.0.1 at 2017-03-05 15:24:58 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034498499999999996s
+  Rendered main/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 327ms (Views: 325.9ms)
+
+
+Started GET "/assets/application.self-c85e225468b0527a6dbc2899919d7047d4a72ee00fed59c632420b81aebc9969.js?body=1" for 127.0.0.1 at 2017-03-05 15:24:59 -0800
+Started GET "/" for 127.0.0.1 at 2017-03-05 15:34:57 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000510183s
+  Rendered main/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 339ms (Views: 338.2ms)
+
+
+Started GET "/assets/application.self-f0af664980cdcefc80bcdbe90bc60b334edf7b858040a26caebed37b094dcc1c.js?body=1" for 127.0.0.1 at 2017-03-05 15:34:57 -0800
+Started GET "/" for 127.0.0.1 at 2017-03-05 15:35:32 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000451041s
+  Rendered main/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 251ms (Views: 250.2ms)
+
+
+Started GET "/assets/application.self-181afb219ffcb16c1f242845be113ca44f7b07f554eab348a1e4a5080bbc2d67.js?body=1" for 127.0.0.1 at 2017-03-05 15:35:32 -0800
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:35:36 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000352713s
+  Rendered laptops/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 113ms (Views: 110.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-05 15:35:44 -0800
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000349755s
+  Rendered main/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 94ms (Views: 92.9ms)
+
+
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 15:36:21 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000390238s
+  Rendered smartphones/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 170ms (Views: 88.4ms)
+
+
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:36:54 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (19.1ms)
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:36:54 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (18.1ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 15:37:06 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00035030900000000004s
+  Rendered smartphones/index.html.erb within layouts/application (2.1ms)
+Started GET "/smartphones" for 127.0.0.1 at 2017-03-05 15:37:06 -0800
+Processing by SmartphonesController#index as */*
+  Rendering smartphones/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Smartphone"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000389175s
+  Rendered smartphones/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 181ms (Views: 175.1ms)
+
+
+Completed 200 OK in 255ms (Views: 252.5ms)
+
+
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:12 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:12 -0800
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (77.7ms)
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (60.7ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (22.7ms)
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:37:18 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.000400005s
+  Rendered laptops/index.html.erb within layouts/application (11.5ms)
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:37:18 -0800
+Processing by LaptopsController#index as */*
+  Rendering laptops/index.html.erb within layouts/application
+Started GET "/laptops" for 127.0.0.1 at 2017-03-05 15:37:18 -0800
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+Processing by LaptopsController#index as */*
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.018198078s
+  Rendered laptops/index.html.erb within layouts/application (34.5ms)
+  Rendering laptops/index.html.erb within layouts/application
+MONGODB | localhost:27017 | mongo_scratch_development.find | STARTED | {"find"=>"equipment", "filter"=>{"equipmentType"=>"Laptop"}}
+MONGODB | localhost:27017 | mongo_scratch_development.find | SUCCEEDED | 0.00034077399999999996s
+  Rendered laptops/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 250ms (Views: 238.9ms)
+
+
+Completed 200 OK in 401ms (Views: 375.6ms)
+
+
+Completed 200 OK in 338ms (Views: 334.6ms)
+
+
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:24 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:24 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:24 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (83.0ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+Started GET "/type" for 127.0.0.1 at 2017-03-05 15:37:24 -0800
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (68.9ms)
+ActionController::RoutingError (No route matches [GET] "/type"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/home/finisher/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (32.3ms)
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb
+  Rendering /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/finisher/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (18.9ms)

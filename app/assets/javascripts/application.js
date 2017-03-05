@@ -14,6 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+var default_type = ["Asset Type", "Desktop", "Laptop", "DTU", "Mobile Cart",
+					"Smart Phone", "Desk Phone", "Printer", "Toner"];
+var default_model = ["Asset Model"];
+var default_search = ["Search By"];
 
 var desktop_models = ["Desktop Model", "Optiplex 980", "Optiplex 960",
 					  "Optiplex 755", "Optiplex 745", "Optiplex GX560",
@@ -62,86 +66,98 @@ var toner_search = ["Search By", "Color", "ID", "Quantity"];
 
 $(document).ready( function() {
 	$('#asset_type').change( function() {
-		if ($('#asset_type').val() == 'desktops') {
-			$('#dell_desktop_model').find('option').remove();
-			desktop_models.forEach(function(deskmodel) {
-				$('#dell_desktop_model').append('<option value="'+deskmodel+'">'+deskmodel+'</option>');
+		if ($('#asset_type').val() == 'type') {
+			$('#asset_model').find('option').remove();
+			default_model.forEach(function(deskmodel) {
+				$('#asset_model').append('<option value="'+deskmodel+'">'+deskmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
+			default_search.forEach(function(desksearch) {
+				$('#search_by').append('<option value="'+desksearch+'">'+desksearch+'</option>');
+			})
+			
+
+		}
+		if ($('#asset_type').val() == 'desktops') {
+			$('#asset_model').find('option').remove();
+			desktop_models.forEach(function(deskmodel) {
+				$('#asset_model').append('<option value="'+deskmodel+'">'+deskmodel+'</option>');
+			})
+			$('#search_by').find('option').remove();
 			desktop_search.forEach(function(desksearch) {
-				$('#dell_laptop_model').append('<option value="'+desksearch+'">'+desksearch+'</option>');
+				$('#search_by').append('<option value="'+desksearch+'">'+desksearch+'</option>');
 			})
 			
 
 		}
 		if ($('#asset_type').val() == 'laptops') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			laptop_models.forEach(function(lapmodel) {
-				$('#dell_desktop_model').append('<option value="'+lapmodel+'">'+lapmodel+'</option>');
+				$('#asset_model').append('<option value="'+lapmodel+'">'+lapmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			desktop_search.forEach(function(desksearch) {
-				$('#dell_laptop_model').append('<option value="'+desksearch+'">'+desksearch+'</option>');
+				$('#search_by').append('<option value="'+desksearch+'">'+desksearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'dtus') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			dtu_models.forEach(function(dtumodel) {
-				$('#dell_desktop_model').append('<option value="'+dtumodel+'">'+dtumodel+'</option>');
+				$('#asset_model').append('<option value="'+dtumodel+'">'+dtumodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			desktop_search.forEach(function(desksearch) {
-				$('#dell_laptop_model').append('<option value="'+desksearch+'">'+desksearch+'</option>');
+				$('#search_by').append('<option value="'+desksearch+'">'+desksearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'mobilecarts') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			mc_models.forEach(function(mcmodel) {
-				$('#dell_desktop_model').append('<option value="'+mcmodel+'">'+mcmodel+'</option>');
+				$('#asset_model').append('<option value="'+mcmodel+'">'+mcmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			desktop_search.forEach(function(desksearch) {
-				$('#dell_laptop_model').append('<option value="'+desksearch+'">'+desksearch+'</option>');
+				$('#search_by').append('<option value="'+desksearch+'">'+desksearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'smartphones') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			sp_models.forEach(function(spmodel) {
-				$('#dell_desktop_model').append('<option value="'+spmodel+'">'+spmodel+'</option>');
+				$('#asset_model').append('<option value="'+spmodel+'">'+spmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			sp_search.forEach(function(spsearch) {
-				$('#dell_laptop_model').append('<option value="'+spsearch+'">'+spsearch+'</option>');
+				$('#search_by').append('<option value="'+spsearch+'">'+spsearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'deskphones') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			dp_models.forEach(function(dpmodel) {
-				$('#dell_desktop_model').append('<option value="'+dpmodel+'">'+dpmodel+'</option>');
+				$('#asset_model').append('<option value="'+dpmodel+'">'+dpmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			dp_search.forEach(function(dpsearch) {
-				$('#dell_laptop_model').append('<option value="'+dpsearch+'">'+dpsearch+'</option>');
+				$('#search_by').append('<option value="'+dpsearch+'">'+dpsearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'printers') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			printer_models.forEach(function(printmodel) {
-				$('#dell_desktop_model').append('<option value="'+printmodel+'">'+printmodel+'</option>');
+				$('#asset_model').append('<option value="'+printmodel+'">'+printmodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			print_search.forEach(function(printsearch) {
-				$('#dell_laptop_model').append('<option value="'+printsearch+'">'+printsearch+'</option>');
+				$('#search_by').append('<option value="'+printsearch+'">'+printsearch+'</option>');
 			})
 		}
 		if ($('#asset_type').val() == 'toners') {
-			$('#dell_desktop_model').find('option').remove();
+			$('#asset_model').find('option').remove();
 			toner_models.forEach(function(tonermodel) {
-				$('#dell_desktop_model').append('<option value="'+tonermodel+'">'+tonermodel+'</option>');
+				$('#asset_model').append('<option value="'+tonermodel+'">'+tonermodel+'</option>');
 			})
-			$('#dell_laptop_model').find('option').remove();
+			$('#search_by').find('option').remove();
 			toner_search.forEach(function(tonersearch) {
-				$('#dell_laptop_model').append('<option value="'+tonersearch+'">'+tonersearch+'</option>');
+				$('#search_by').append('<option value="'+tonersearch+'">'+tonersearch+'</option>');
 			})
 		}
 

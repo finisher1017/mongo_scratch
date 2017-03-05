@@ -33,23 +33,31 @@
 
 
 <select id="asset_type">
-<%= options_for_select([['Asset Type'], ['Desktop', 'desktops'], ['Laptop', 'laptops'], ['DTU', 'dtus'], ['Mobile Cart', 'mobilecarts'], ['Smart Phone', 'smartphones'], ['Desk Phone', 'deskphones'], ['Printer', 'printers'], ['Toner', 'toners']]) %>
+<%= options_for_select([['Asset Type', "type"], ['Desktop', 'desktops'], ['Laptop', 'laptops'], ['DTU', 'dtus'], ['Mobile Cart', 'mobilecarts'], ['Smart Phone', 'smartphones'], ['Desk Phone', 'deskphones'], ['Printer', 'printers'], ['Toner', 'toners']]) %>
 </select>
 <br><br>
 
 <select id="asset_model">
-<%= options_for_select([['Asset Model'], ['Optiplex 980', 'optiplex980'], ['Optiplex 960', 'optiplex960'], ['Optiplex 755', 'optiplex755'], ['Optiplex 320', 'optiplex320']]) %>
+<%= options_for_select([['Asset Model']]) %>
 </select>
 <br><br>
 
-<select id="dell_laptop_model">
-<%= options_for_select ([['Search By'], ['Latitude E7240', 'latitudeE7240'], ['Latitude E6510', 'latitudeE6510'], ['Latitude E6420', 'latitudeE6420'], ['Latitude E6410', 'latitudeE6410'], ['
+<% if false %>
+, ['Optiplex 980', 'optiplex980'], ['Optiplex 960', 'optiplex960'], ['Optiplex 755', 'optiplex755'], ['Optiplex 320', 'optiplex320']
+<% end %>
+
+<select id="search_by">
+<%= options_for_select ([['Search By']]) %>
+</select>
+<br>
+
+<% if false %>
+, ['Latitude E7240', 'latitudeE7240'], ['Latitude E6510', 'latitudeE6510'], ['Latitude E6420', 'latitudeE6420'], ['Latitude E6410', 'latitudeE6410'], ['
   Latitude E6230', 'latitudeE6230'], ['
   Latitude E5550', 'latitudeE5550'], ['
   Latitude E4310', 'latitudeE4310'], ['
-  Latitude E4300', 'latitudeE4300']]) %>
-</select>
-<br>
+  Latitude E4300', 'latitudeE4300']
+<% end %>
 
 <%= form_for :article do |f| %>
 <p>
